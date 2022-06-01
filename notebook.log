@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.18)  1 JUN 2022 21:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.18)  1 JUN 2022 23:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -589,24 +589,24 @@ LaTeX Warning: Unused global option(s):
 (./notebook.aux)
 \openout1 = `notebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -617,14 +617,14 @@ LaTeX Font Info:    ... okay on input line 65.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(7.22743pt, 583.05301pt, 7.22743pt)
-* v-part:(T,H,B)=(7.22743pt, 830.59198pt, 7.22743pt)
+* v-part:(T,H,B)=(18.06749pt, 819.75192pt, 7.22743pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=583.05301pt
-* \textheight=830.59198pt
+* \textheight=819.75192pt
 * \oddsidemargin=-65.04256pt
 * \evensidemargin=-65.04256pt
-* \topmargin=-80.65627pt
+* \topmargin=-69.81621pt
 * \headheight=12.0pt
 * \headsep=3.61371pt
 * \topskip=10.0pt
@@ -642,7 +642,7 @@ LaTeX Font Info:    ... okay on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -654,9 +654,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (./notebook.out) (./notebook.out)
 \@outlinefile=\write5
@@ -690,104 +690,90 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./notebook.toc)
-\tf@toc=\write6
-\openout6 = `notebook.toc'.
-
- (./contents.tex (./_minted-notebook/default.pygstyle)
-(./_minted-notebook/FB4E9A33B7451BE94C4B7D7320B0E71034C4308A86CFF463A12759795F9
-14A0F.pygtex
+(./contents.tex (./_minted-notebook/default.pygstyle)
+(./_minted-notebook/C8327B36BD172DB6455EDBDF1B3CD1C1E9933C7F45B080435D465B2F13C
+79879.pygtex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
-
-Overfull \hbox (55.85579pt too wide) in paragraph at lines 14--14
-[]\OT1/cmtt/m/n/10 rng(chrono[]::[]steady_clock[]::[]now().time_since_epoch().c
-ount());[] 
- []
-
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 5.
 )
-(./_minted-notebook/FB4E9A33B7451BE94C4B7D7320B0E710D233BF6E06AA7EC38A662A1F985
-269F7.pygtex
-Overfull \hbox (55.85579pt too wide) in paragraph at lines 14--14
-[]\OT1/cmtt/m/n/10 rng(chrono[]::[]steady_clock[]::[]now().time_since_epoch().c
-ount());[] 
- []
+(./_minted-notebook/CB7C0A4175CDE31CE3A0AAFE196A8B9C24ACBC7F7EE2470161B7F7F0B11
+9AEBF.pygtex)
+(./_minted-notebook/DB18BA493E7FB3B04F1205C326B51317FF06F9CBC4F2C702F2D87C0F8FE
+C65D5.pygtex)
+(./_minted-notebook/B82FA5B3E4CBB302F40F72E861F3A7A63A380F527BA3D481736EE4EEBEC
+C4CF9.pygtex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-)
-(./_minted-notebook/FB4E9A33B7451BE94C4B7D7320B0E710B61E2FD27297F40B3A751CE857F
-C2745.pygtex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (55.85579pt too wide) in paragraph at lines 14--14
-[]\OT1/cmtt/m/n/10 rng(chrono[]::[]steady_clock[]::[]now().time_since_epoch().c
-ount());[] 
- []
-
-)
-(./_minted-notebook/FB4E9A33B7451BE94C4B7D7320B0E71029005CBE0D5D3CE06D461D1AE9D
-C3FEE.pygtex
-Overfull \hbox (55.85579pt too wide) in paragraph at lines 14--14
-[]\OT1/cmtt/m/n/10 rng(chrono[]::[]steady_clock[]::[]now().time_since_epoch().c
-ount());[] 
- []
-
-)
-(./_minted-notebook/FB4E9A33B7451BE94C4B7D7320B0E710B982A3B2546E54BABADAC047428
-B2D49.pygtex
-Overfull \hbox (55.85579pt too wide) in paragraph at lines 14--14
-[]\OT1/cmtt/m/n/10 rng(chrono[]::[]steady_clock[]::[]now().time_since_epoch().c
-ount());[] 
- []
-
-)
-(./_minted-notebook/FB4E9A33B7451BE94C4B7D7320B0E710A86BC5E3965504C7D6EB60C8559
-354F2.pygtex [2]
-Overfull \hbox (55.85579pt too wide) in paragraph at lines 14--14
-[]\OT1/cmtt/m/n/10 rng(chrono[]::[]steady_clock[]::[]now().time_since_epoch().c
-ount());[] 
- []
-
-)
+])
+(./_minted-notebook/BB94F51DB0E85ADBB9264A2FE660853BD33A124095458339AC7AECFC4C7
+8D575.pygtex)
+(./_minted-notebook/E1054195109682ED8236186D65F35AC094F961A458218D0E38A3AE0F54F
+12E26.pygtex [2])
+(./_minted-notebook/24FE500F87B6906F4ACF73568726B45536C1E820A97073B91E9DE34F78D
+F8EBB.pygtex [3])
+(./_minted-notebook/4EFB5AE383A2A0053A6E84FD642FFFDF171E945B8E4E3D999825C27F107
+2253F.pygtex)
+(./_minted-notebook/FA5EBCDCF0B9E8CA096782D8DC9C38208E467B5EAB634781F15048C0EC7
+AF32F.pygtex [4])
+(./_minted-notebook/50BB945B3FA27DAF1C1156C8A00B4AD2BCF3D23166DBC64C5A4030D438A
+6D05B.pygtex)
+(./_minted-notebook/2892183AA24E94044A2687A37F68E9ED4422E13EFC9A7D2B538AFB05027
+6C872.pygtex [5])
+(./_minted-notebook/0E6489E10BFB46643F8F67EC8F9BC14234E50D83B7B790D1E57EE3A9162
+04807.pygtex)
+(./_minted-notebook/2B482964502B877745FFA7C2BFBAF2DD8C36D499A91CEF2882164AF65E5
+941C9.pygtex)
+(./_minted-notebook/93B150363480434AE8E6EC66327C574BBBB700CDF50B084E5CCF7D7476D
+19763.pygtex)
+(./_minted-notebook/EA8B81478A731E00D4E86FFFC7D3BCD865132DA6BBBA439D62AA3AE596B
+F1E06.pygtex [6])
+(./_minted-notebook/6C11562EC64629B8BC7A2B41F01F0028A73AF9DFF1AFDE32FD9105F345A
+6FCD0.pygtex)
+(./_minted-notebook/E54B9E6B8284D9C7AF10655ACB1FBCCB8D3BB96591CEC29908DE6766C16
+A9566.pygtex [7])
+(./_minted-notebook/AB7ECCAC64A9F346A2C4B3CD61398804A86BC5E3965504C7D6EB60C8559
+354F2.pygtex)
 (./_minted-notebook/601FFE0E0D7B4977389380F3D77FAA27446C4E361E7BB72B9FF971D02D4
-456C3.pygtex [3])
-(./_minted-notebook/AD8D64144C14CDA337CC418DAD5136396C61CCB7004C663E92C76B56FD5
+456C3.pygtex [8])
+(./_minted-notebook/075DFAB98B32039F894E2D61FA63DC666C61CCB7004C663E92C76B56FD5
 76548.pygtex)
 (./_minted-notebook/78B118EFE10F3D96D791EA1CCA5D3D8542678ABF4FCEF8E5F3DEF517F3B
 5E924.pygtex)
 (./_minted-notebook/B398A8F0CC19EFB8E5FEF400419A5342615F8DFC50EF1249A88F5AA2772
-5CAF2.pygtex [4])
+5CAF2.pygtex)
 (./_minted-notebook/9CF337508BD677D7E37F5991046434C3A3E9F53965FDFFA6122A07039C9
-D1F41.pygtex)
+D1F41.pygtex [9])
 (./_minted-notebook/2C7A7106F4967B50911726765E0856636171D79C13F802939D158075E14
 4F87B.pygtex)
 (./_minted-notebook/FEC34F7E4F800F8CA1C75E7F6A7B38A7D7FBBF088F3034C463D8A69DFEA
-38E16.pygtex [5])) [6] (./notebook.aux)
+38E16.pygtex)) [10] (./notebook.aux)
 Package rerunfilecheck Info: File `notebook.out' has not changed.
-(rerunfilecheck)             Checksum: 7B5437C3C27A8DC67A5A999C7219114D;2761.
+(rerunfilecheck)             Checksum: 0F776227CBC74DEB7F40BC94C5DF5882;4682.
  ) 
 Here is how much of TeX's memory you used:
- 15433 strings out of 480247
- 261286 string characters out of 5896151
- 707331 words of memory out of 5000000
- 33087 multiletter control sequences out of 15000+600000
- 476583 words of font info for 55 fonts, out of 8000000 for 9000
+ 15527 strings out of 480247
+ 267786 string characters out of 5896151
+ 743569 words of memory out of 5000000
+ 33132 multiletter control sequences out of 15000+600000
+ 476016 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,11n,76p,1819b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,76p,1804b,1102s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on notebook.pdf (6 pages, 173134 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b>
+Output written on notebook.pdf (10 pages, 196766 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,46 @@
+Projective coordinates: triples $(x,y,z)$,
+not all $x$, $y$ and $z$ zero.
+$$(x,y,z) = (cx,cy,cz) \quad \forall c \neq 0.$$
+Cartesian \qquad Projective
+\Hrule
+\halign{#\quad\hfil&#\hfil\cr
+$(x,y)$ &$(x,y,1)$ \cr
+$y = mx + b$ &$(m,-1,b)$ \cr
+$x = c$ &$(1,0,-c)$ \cr
+}
+
+Distance formula, $L_p$ and $L_\infty$ metric:
+$$
+\sqrt{(x_1 - x_0)^2 + (y_1 - y_0)^2},
+$$
+$$
+\big[ \vert x_1 - x_0 \vert^p + \vert y_1 - y_0 \vert^p \big]^{1/p},
+$$
+$$
+\lim_{p \to \infty} \big[ \vert x_1 - x_0 \vert^p + \vert y_1 - y_0 \vert^p \big]^{1/p}.
+$$
+Area of triangle $(x_0,y_0)$, $(x_1,y_1)$ and $(x_2,y_2)$:
+$$
+\sfrac 1 2
+\abs
+\left\vert \matrix{
+x_1-x_0 &y_1-y_0  \cr
+x_2-x_0 &y_2-y_0  \cr
+}\right\vert.
+$$
+Angle formed by three points:
+\vskip3pt
+\Display{angle}
+$$
+\cos \theta = {(x_1, y_1) \cdot (x_2, y_2) \over \ell_1 \ell_2}.
+$$
+Line through two points $(x_0,y_0)$ and $(x_1,y_1)$:
+$$
+\left\vert \matrix{
+x &y & 1\cr
+x_0 &y_0 & 1\cr
+x_1 &y_1 & 1\cr
+}\right\vert = 0.
+$$
+Area of circle, volume of sphere:
+$$ A= \pi r^2, \qquad V= \sfrac 4 3 \pi r^3.$$

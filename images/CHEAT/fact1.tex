@@ -1,0 +1,28 @@
+Falling Factorial Powers:
+$$
+\eqalign{
+x^{\underline n} &= x(x-1) \cdots (x-n+1), \quad n > 0, \cr
+x^{\underline 0} &= 1, \cr
+x^{\underline n} &= {1 \over (x+1) \cdots (x+\vert n \vert)}, \quad n < 0,\cr
+x^{\underline{n+m}} &= x^{\underline m}(x-m)^{\underline n}. \cr
+}
+$$
+Rising Factorial Powers:
+$$
+\eqalign{
+x^{\overline n} &= x(x+1) \cdots (x+n-1), \quad n > 0,\cr
+x^{\overline 0} &= 1, \cr
+x^{\overline n} &= {1 \over (x-1) \cdots (x-\vert n \vert)}, \quad n < 0,\cr
+x^{\overline{n+m}} &= x^{\overline m}(x+m)^{\overline n}. \cr
+}
+$$
+Conversion:
+$$
+\eqalign{
+x^{\underline n} &= (-1)^n(-x)^{\overline n} = (x-n+1)^{\overline n} \cr &= 1/(x+1)^{\overline{-n}}, \cr
+x^{\overline n} &= (-1)^n(-x)^{\underline n} = (x+n-1)^{\underline n} \cr &= 1/(x-1)^{\underline{-n}}, \cr
+x^n &= \sum_{k=1}^n \Subset n k x^{\underline k} = \sum_{k=1}^n \Subset n k (-1)^{n-k} x^{\overline k}, \cr
+x^{\underline n} &= \sum_{k=1}^n \Cycle n k (-1)^{n-k} x^k, \cr
+x^{\overline n} &= \sum_{k=1}^n \Cycle n k x^k. \cr
+}
+$$

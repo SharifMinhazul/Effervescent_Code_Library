@@ -1,0 +1,31 @@
+$$ \sum_{i=1}^n i = {n(n+1) \over 2}, \quad
+\sum_{i=1}^n i^2 = {n(n+1)(2n+1) \over 6}, \quad
+\sum_{i=1}^n i^3 = {n^2(n+1)^2 \over 4}.$$
+In general:
+$$
+\eqalign{
+\sum_{i=1}^n i^m &= {1 \over m+1} \bigg[ (n+1)^{m+1} - 1 - \sum_{i=1}^n \big((i+1)^{m+1} - i^{m+1} - (m+1)i^m\big) \bigg] \cr
+\sum_{i=1}^{n-1} i^m &= {1 \over m+1}\sum_{k=0}^m {m+1 \choose k} B_k n^{m+1-k}. \cr
+}
+$$
+Geometric series:
+$$ \sum_{i=0}^n c^i = {c^{n+1} - 1 \over c -1}, \quad c \neq 1, \quad
+\sum_{i=0}^\infty c^i = {1 \over 1 - c}, \quad
+\sum_{i=1}^\infty c^i = {c \over 1 - c}, \quad \vert c \vert < 1,$$
+$$ \sum_{i=0}^n i c^i = { nc^{n+2} - (n+1)c^{n+1} + c \over (c-1)^2}, \quad c \neq 1, \quad
+\sum_{i=0}^\infty i c^i = {c \over (1 - c)^2}, \quad \vert c \vert < 1.$$
+%$$ \sum_{i=0}^n i^k c^i = {c^k \, d^k \over dc^k}\left({c^{n+1} - 1 \over c -1}\right)\!, \quad\! c \neq 1, \quad\!
+%\sum_{i=0}^\infty i^k c^i = {c^k \, d^k \over dc^k} \left({1 \over 1 - c}\right) \!, \quad \vert c\vert < 1.$$
+Harmonic series:
+$$
+H_n = \sum_{i=1}^n {1 \over i}, \qquad
+\sum_{i=1}^n iH_i = {n(n+1) \over 2}H_n - {n(n-1) \over 4}.
+$$
+$$
+\sum_{i=1}^n H_i = (n+1)H_n - n, \quad
+\sum_{i=1}^n {i \choose m } H_i = { n+1 \choose m+1} \left(H_{n+1} - {1 \over m+1}\right).
+$$
+%Chebyshev's summation inequalities:
+%$$ \bigg( \sum_{i=1}^n a_i \bigg) \bigg( \sum_{i=1}^n b_i \bigg) \leq n \sum_{i=1}^n a_i b_i, \quad \hbox{if $a_1 \leq \cdots \leq a_n$ and $b_1 \leq \cdots \leq b_n$,}$$
+%$$ \bigg( \sum_{i=1}^n a_i \bigg) \bigg( \sum_{i=1}^n b_i \bigg) \geq n \sum_{i=1}^n a_i b_i, \quad \hbox{if $a_1 \leq \cdots \leq a_n$ and $b_1 \geq \cdots \geq b_n$.}$$
+

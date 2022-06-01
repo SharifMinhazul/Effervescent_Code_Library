@@ -1,0 +1,79 @@
+\input cheat
+
+\BeginTable3
+\multicolumn2 Definitions \vtt Series \elt
+$f(n) = O(g(n))$|
+\stpar{1.70in}{
+iff $\exists$ positive $c, n_0$ such that $0 \leq f(n) \leq cg(n)$ $\forall n \geq n_0$.
+} \vtt
+\stparrow9{4.38in}{
+\input sums.tex
+} \elspec \trule | \trule | \el
+$f(n) = \Omega(g(n))$ |
+\stpar{1.70in}{
+iff $\exists$ positive $c, n_0$ such that $f(n) \geq cg(n) \geq 0$ $\forall n \geq n_0$.
+} \vtt \elspec \trule | \trule | \el
+$f(n) = \Theta(g(n))$ |
+\stpar{1.70in}{
+iff $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$.
+} \vtt \elspec \trule | \trule | \el
+$f(n) = o(g(n))$|
+\stpar{1.70in}{
+iff $\lim_{n \to \infty} f(n)/g(n) = 0$.
+} \vtt \elspec \trule | \trule | \el
+$\displaystyle \lim_{n \to \infty} a_n = a$|
+\stpar{1.70in}{
+iff $\forall \epsilon > 0$, $\exists n_0$ such that
+$\vert a_n - a\vert < \epsilon$, $\forall n \geq n_0$.
+} \vtt \elspec \trule | \trule | \el
+$\sup S$|
+\stpar{1.70in}{
+least $b \in \Real$ such that $b \geq s$, $\forall s \in S$.
+} \vtt \elspec \trule | \trule | \el
+$\inf S$|
+\stpar{1.70in}{
+greatest $b \in \Real$ such that $b \leq s$, $\forall s \in S$.
+} \vtt \elspec \trule | \trule | \el
+$\displaystyle \liminf_{n \to \infty} a_n$|
+\stpar{1.70in}{
+$\displaystyle \lim_{n\to\infty} \inf \{ a_i \mid i \geq n, i \in \Natural\}$.
+} \vtt \elspec \trule | \trule | \el
+$\displaystyle \limsup_{n \to \infty} a_n$
+| \stpar{1.70in}{
+$\displaystyle \lim_{n\to\infty} \sup \{ a_i \mid i\geq n, i \in \Natural\}$.
+} \vtt \elspec \trule | \trule | \el
+${n \choose k}$
+| \stpar{1.70in}{
+Combinations: Size $k$ subsets of a size $n$ set. 
+} \vtt \elspec \trule | \trule | \ttrule \el
+$\cycle n k$
+| \stpar{1.70in}{
+Stirling numbers (1st kind): Arrangements of an $n$ element set into $k$ cycles.
+} \vtt
+\stparrow3{4.38in}{ \vskip 15pt \input ids1 }
+\elspec \trule | \trule | \el
+$\subset n k$
+| \stpar{1.70in}{
+Stirling numbers (2nd kind): Partitions of an $n$ element set into $k$ non-empty sets.
+} \vtt \elspec \trule | \trule | \el
+$\eul n k$
+| \stpar{1.70in}{
+1st order Eulerian numbers:  Permutations $\pi_1\pi_2\ldots\pi_n$ on $\{1,2, \ldots, n\}$ with $k$ ascents.
+} \vtt
+\elspec \trule | \trule | \el
+$\euls n k$
+| \stpar{1.70in}{
+2nd order Eulerian numbers.
+} \vtt \elspec \trule | \trule | \el
+$C_n$
+| \stpar{1.70in}{
+Catalan Numbers: Binary trees with $n + 1$ vertices.
+} \vtt \elspec \ttrule | \ttrule | \el
+\multicolumn3 \stpar{7.5in}{
+\vskip 10pt
+\input ids2
+\vskip -11pt
+}
+\EndTable
+
+\bye

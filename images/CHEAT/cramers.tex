@@ -1,0 +1,16 @@
+If we have equations:
+$$
+\eqalign{
+a_{1,1} &x_1 + a_{1,2} x_2 + \cdots + a_{1,n} x_n = b_1 \cr
+a_{2,1} &x_1 + a_{2,2} x_2 + \cdots + a_{2,n} x_n = b_2 \cr
+&\vdots \qquad \qquad \vdots \qquad \qquad \qquad \vdots \cr 
+a_{n,1} &x_1 + a_{n,2} x_2 + \cdots + a_{n,n} x_n = b_n \cr
+}
+$$
+Let $A = (a_{i,j})$ and $B$ be the column matrix $(b_i)$.
+Then there is a unique solution iff $\det A \neq 0$.
+Let $A_i$ be $A$ with column $i$ replaced by $B$.
+Then
+$$
+x_i = {\det A_i \over \det A}.
+$$

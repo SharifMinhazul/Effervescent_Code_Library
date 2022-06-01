@@ -1,0 +1,123 @@
+
+\font\tenbb=msbm10\relax
+\font\eightrm=cmr8\relax
+
+\def\Natural{\hbox{\tenbb N}}
+\def\Z{\hbox{\tenbb Z}}
+\def\Real{\hbox{\tenbb R}}
+
+\newcount\DisSmall
+\newcount\DisCount
+\newcount\DisNumber
+\newdimen\DisSpace
+\newdimen\DisLSpace
+\newdimen\DisLeftSkip
+\newdimen\DisParFillSkip
+\newdimen\DisBaseLineSkip
+
+\def\title{\bf\hfil Theoretical Computer Science Cheat Sheet\hfil}
+
+\def\BeginTable#1{
+\vfil
+\begintable
+\multicolumn#1\title\eltt
+}
+\def\Wider{
+\def\stablesleft{\vskip 0em\hfil}
+\def\stablesright{\hfil\vskip 0em}
+}
+
+\def\EndTable{
+\endtable
+\vfil
+\eject
+}
+
+\def\Fm#1\Mf{\hskip 0pt plus 1fil\advance\DisCount by 1\hbox{\hskip\DisSpace\ifnum\DisNumber=1{\bf \number\DisCount. }\fi$\ifnum\DisSmall=0\displaystyle\fi#1$}}
+
+\def\SNDis#1 #2pt{\MyDis{#1}{#2}{1}{20}{1}}
+\def\NDis#1 #2pt{\MyDis{#1}{#2}{0}{29}{1}}
+\def\SDis#1pt{\MyDis{1}{#1}{1}{20}{0}}
+\def\Dis#1pt{\MyDis{1}{#1}{0}{29}{0}}
+
+\def\Display#1{
+\def\twlrm{}
+\def\sixrm{}
+\input #1 {}
+\centerline{\box\graph}
+}
+
+\def\MyDis#1#2#3#4#5{%
+\par\noindent%
+\DisCount=#1%
+\DisNumber=#5%
+\advance\DisCount by -1%
+\DisSmall=#3%
+\DisSpace=#2 pt%
+\DisLSpace=-#2 pt%
+\DisLeftSkip=\leftskip%
+\DisParFillSkip=\parfillskip%
+\DisBaseLineSkip=\baselineskip%
+\baselineskip=#4 pt%
+\leftskip=\DisLSpace%
+\parfillskip=0pt%
+\vskip-#4 pt%
+\par\noindent%
+\break%
+}
+
+\def\EndDis{%
+\par\noindent%
+\vskip\belowdisplayskip%
+\par\noindent%
+\baselineskip=\DisBaseLineSkip%
+\leftskip=\DisLeftSkip%
+\parfillskip=0.0pt plus 1.0fil%
+}
+
+\def\frac#1 #2 {{#1 \over #2}}
+\def\sfrac#1 #2 {\hbox{$#1 \over #2$}}
+\def\Par{\par\vskip 3pt}
+\def\center#1{{\hfil #1\hfil}}
+\def\centertwo#1#2{\line {\hss #1\hss #2\hss}}
+\def\centerthree#1#2#3{\line {\hss #1\hss #2\hss #3\hss}}
+\def\sign{\hbox{\rm sign}}
+\def\etc{$\ldots$}
+\def\Ldots{,\ldots,}
+\def\Hrule{\vskip 3pt\hrule\vskip 3pt}
+\def\Bar{\vert}
+\def\And{\wedge}
+\def\Or{\vee}
+\def\E{\mathop{\rm E}\nolimits}
+\def\Pr{\mathop{\rm Pr}\nolimits}
+\def\abs{\mathop{\rm abs}\nolimits}
+\def\deg{\mathop{\rm deg}\nolimits}
+\def\perm{\mathop{\rm perm}\nolimits}
+\def\sinh{\mathop{\rm sinh}\nolimits}
+\def\cosh{\mathop{\rm cosh}\nolimits}
+\def\sech{\mathop{\rm sech}\nolimits}
+\def\csch{\mathop{\rm csch}\nolimits}
+\def\coth{\mathop{\rm coth}\nolimits}
+\def\tanh{\mathop{\rm tanh}\nolimits}
+
+\def\arccot{\mathop{\rm arccot}\nolimits}
+\def\arcsec{\mathop{\rm arcsec}\nolimits}
+\def\arccsc{\mathop{\rm arccsc}\nolimits}
+\def\arcsinh{\mathop{\rm arcsinh}\nolimits}
+\def\arccosh{\mathop{\rm arccosh}\nolimits}
+\def\arctanh{\mathop{\rm arctanh}\nolimits}
+\def\arccoth{\mathop{\rm arccoth}\nolimits}
+\def\arcsech{\mathop{\rm arcsech}\nolimits}
+\def\arccsch{\mathop{\rm arccsch}\nolimits}
+
+\def\ramsey{\mathop{\rm r}\nolimits}
+\def\Var{\mathop{\rm VAR}\nolimits}
+\def\Subset#1#2{ \bigg\{{#1 \atop #2} \bigg\}}
+\def\subset#1#2{ \big\{{#1 \atop #2} \big\}}
+\def\Cycle#1#2{ \bigg[{#1 \atop #2} \bigg]}
+\def\cycle#1#2{ \big[{#1 \atop #2} \big]}
+\def\Eul#1#2{ \bigg\langle{#1 \atop #2} \bigg\rangle}
+\def\eul#1#2{ \big\langle{#1 \atop #2} \big\rangle}
+\def\Euls#1#2{ \bigg\langle\!\!\!\bigg\langle{#1 \atop #2} \bigg\rangle\!\!\!\bigg\rangle}
+\def\fivrm{}
+\def\euls#1#2{ \big\langle\!\!\big\langle{#1 \atop #2} \big\rangle\!\!\big\rangle}

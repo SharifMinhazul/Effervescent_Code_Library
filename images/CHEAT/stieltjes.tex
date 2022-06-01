@@ -1,0 +1,28 @@
+
+If $G$ is continuous in the interval $[a,b]$ and $F$ is nondecreasing then
+$$
+\int_a^b G(x) \, d F(x)
+$$
+exists.
+If $a \leq b \leq c$ then
+$$
+\int_a^c G(x) \, d F(x) = \int_a^b G(x) \, d F(x) + \int_b^c G(x) \, d F(x).
+$$
+If the integrals involved exist
+$$
+\eqalign{
+\int_a^b \big(G(x) + H(x)\big)\, d F(x) &= \int_a^b G(x) \, d F(x) + \int_a^b H(x) \, d F(x), \cr
+\int_a^b G(x)\, d \big(F(x) + H(x)\big) &= \int_a^b G(x) \, d F(x) + \int_a^b G(x) \, d H(x), \cr
+}
+$$
+$$
+\int_a^b c \cdot G(x)\, d F(x) = \int_a^b G(x)\, d \big(c \cdot F(x)\big) = c \int_a^b G(x) \, d F(x),
+$$
+$$
+\int_a^b G(x)\, d F(x) = G(b)F(b) - G(a)F(a) - \int_a^b F(x) \, d G(x).
+$$
+If the integrals involved exist,
+and $F$ possesses a derivative $F'$ at every point in $[a,b]$ then
+$$
+\int_a^b G(x) \, d F(x) = \int_a^b G(x) F'(x) \, dx.
+$$

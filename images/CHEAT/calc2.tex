@@ -1,0 +1,55 @@
+\vskip 5pt
+\NDis 15 5pt
+\Fm \int \arccos \sfrac x a dx = \arccos \sfrac x a - \sqrt{a^2 - x^2}, \quad \hbox{$a > 0$}, \Mf
+\Fm \int \arctan \sfrac x a dx = x \arctan \sfrac x a - \sfrac a 2 \ln(a^2 + x^2), \quad \hbox{$a > 0$}, \Mf
+\Fm \int \sin^2 (a x) dx = \sfrac 1 2a \big(ax - \sin(ax) \cos(ax)\big), \Mf
+\Fm \int \cos^2 (a x) dx = \sfrac 1 2a \big(ax + \sin(ax) \cos(ax)\big), \Mf
+\Fm \int \sec^2 x \, dx = \tan x, \Mf
+\Fm \int \csc^2 x \, dx = - \cot x, \Mf
+\Fm \int \sin^n x \, dx = -{\sin^{n-1} x \cos x \over n} + {n-1 \over n}\int \sin^{n-2} x \, dx, \Mf
+\Fm \int \cos^n x \, dx = {\cos^{n-1} x \sin x \over n} + {n-1 \over n}\int \cos^{n-2} x \, dx, \Mf \break
+\Fm \int \tan^n x \, dx = {\tan^{n-1} x \over n - 1} - \int \tan^{n-2} x \, dx,\quad n \neq 1,\Mf 
+\Fm \int \cot^n x \, dx = -{\cot^{n-1} x \over n - 1} - \int \cot^{n-2} x \, dx,\quad n \neq 1,\Mf \break
+\Fm \int \sec^n x \, dx = {\tan x\sec^{n-1} x \over n - 1} + {n-2 \over n-1}\int \sec^{n-2} x \, dx,\quad n \neq 1,\Mf \break
+\Fm \int \csc^n x \, dx = -{\cot x\csc^{n-1} x \over n - 1} + {n-2 \over n-1}\int \csc^{n-2} x \, dx,\quad n \neq 1,\Mf
+\Fm \int \sinh x \, dx = \cosh x, \Mf
+\Fm \int \cosh x \, dx = \sinh x, \Mf
+\Fm \int \tanh x \, dx = \ln \vert \cosh x \vert, \Mf
+\Fm \int \coth x \, dx = \ln \vert \sinh x \vert, \Mf
+\Fm \int \sech x \, dx = \arctan \sinh x , \Mf
+\Fm \int \csch x \, dx = \ln\left\vert\tanh \sfrac x 2 \right\vert, \Mf
+\Fm \int \sinh^2 x \, dx = \sfrac 1 4 \sinh (2x) - \sfrac 1 2 x, \Mf
+\Fm \int \cosh^2 x \, dx = \sfrac 1 4 \sinh (2x) + \sfrac 1 2 x, \Mf
+\Fm \int \sech^2 x \, dx = \tanh x, \Mf
+\Fm \int \arcsinh \sfrac x a dx = x \arcsinh \sfrac x a - \sqrt{x^2 + a^2},\quad a > 0, \Mf \vadjust{\kern5pt}
+\Fm \int \arctanh \sfrac x a dx = x \arctanh \sfrac x a +  \sfrac a 2 \ln\vert a^2 - x^2\vert, \Mf
+\Fm \int \arccosh \sfrac x a dx = \cases{
+\displaystyle x \arccosh {x \over a} - \sqrt{x^2 + a^2}, &if $\arccosh {x \over a} > 0$ and $a > 0$, \cr \noalign{\vskip3pt}
+\displaystyle x \arccosh {x \over a} + \sqrt{x^2 + a^2}, &if $\arccosh {x \over a} < 0$ and $a > 0$, \cr
+}
+\Mf \vadjust{\kern5pt}
+\Fm \int {dx  \over \sqrt{a^2 + x^2}}= \ln \left(x + \sqrt{a^2 + x^2}\right),\quad a > 0, \Mf
+\Fm \int {dx  \over a^2 + x^2}= \sfrac 1 a \arctan \sfrac x a ,\quad a > 0, \Mf
+\Fm \int \sqrt{a^2 - x^2} \, dx = \sfrac x 2 \sqrt{a^2 - x^2} + \sfrac a^2 2 \arcsin \sfrac x a ,\quad a > 0, \Mf
+\Fm \int (a^2 - x^2)^{3/2} dx = \sfrac x 8 (5a^2 - 2x^2)\sqrt{a^2 - x^2} + \sfrac 3a^4 8 \arcsin \sfrac x a ,\quad a > 0, \Mf \break
+\Fm \int {dx  \over \sqrt{a^2 - x^2}} = \arcsin \sfrac x a ,\quad a > 0, \Mf
+\Fm \int {dx  \over a^2 - x^2} = {1 \over 2a} \ln\left\vert{a + x \over a - x}\right\vert, \Mf
+\Fm \int {dx  \over (a^2 - x^2)^{3/2}} = {x \over a^2\sqrt{a^2 - x^2}}, \Mf
+\Fm \int \sqrt{a^2 \pm x^2} \, dx = \sfrac x 2 \sqrt{a^2 \pm x^2} \pm \sfrac a^2 2 \ln\left\vert x + \sqrt{a^2 \pm x^2}\right\vert, \Mf
+\Fm \int {dx  \over \sqrt{x^2 - a^2}}= \ln\left\vert x + \sqrt{x^2 - a^2}\right\vert, \quad a > 0,\Mf
+\Fm \int {dx  \over a x^2 + b x}= {1 \over a} \ln\left\vert{x \over a + bx}\right\vert,\Mf
+\Fm \int x \sqrt{a + b x} \, dx= {2(3bx - 2a)(a + bx)^{3/2} \over 15 b^2},\Mf
+\Fm \int {\sqrt{a + b x} \over x} \, dx= 2\sqrt{a + b x} + a \int {1 \over x \sqrt{a + b x}} dx,\Mf
+\Fm \int {x \over \sqrt{a + b x}} \, dx= {1 \over \sqrt{2}} \ln\left\vert{\sqrt{a + b x} - \sqrt{a} \over \sqrt{a + b x} + \sqrt{a}}\right\vert, \quad a > 0,\Mf
+\Fm \int {\sqrt{a^2 - x^2}\over x} \, dx = \sqrt{a^2 - x^2} - a \ln\left\vert{a + \sqrt{a^2 - x^2} \over x}\right\vert, \Mf
+\Fm \int x \sqrt{a^2 - x^2} \, dx = - \sfrac 1 3 (a^2 - x^2)^{3/2}, \Mf
+\Fm \int x^2 \sqrt{a^2 - x^2} \, dx = \sfrac x 8 (2x^2 - a^2)\sqrt{a^2 - x^2} + \sfrac a^4 8 \arcsin \sfrac x a , \quad a > 0,\Mf
+\Fm \int {dx  \over \sqrt{a^2 - x^2}}= - \sfrac 1 a \ln\left\vert{a + \sqrt{a^2 - x^2} \over x}\right\vert, \Mf
+\Fm \int {x \, dx  \over \sqrt{a^2 - x^2}} = - \sqrt{a^2 - x^2}, \Mf
+\Fm \int {x^2 \, dx  \over \sqrt{a^2 - x^2}} = - \sfrac x 2 \sqrt{a^2 - x^2} + \sfrac a^2 2 \arcsin \sfrac x a, \quad a > 0, \Mf
+\Fm \int {\sqrt{a^2 + x^2} \over x} \, dx = \sqrt{a^2 + x^2} - a \ln\left\vert{a + \sqrt{a^2 + x^2} \over x}\right\vert, \Mf
+\Fm \int {\sqrt{x^2 - a^2} \over x} \, dx = \sqrt{x^2 - a^2} - a \arccos \sfrac a {\vert x\vert} ,\quad a > 0, \Mf
+\Fm \int x \sqrt{x^2 \pm a^2} \, dx = \sfrac 1 3 (x^2 \pm a^2)^{3/2}, \Mf
+\Fm \int {dx \over x \sqrt{x^2 + a^2}} = \sfrac 1 a \ln \left\vert{x \over a + \sqrt{a^2 + x^2}}\right\vert, \Mf
+\EndDis
+\vskip -5pt

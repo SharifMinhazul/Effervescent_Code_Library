@@ -1,0 +1,32 @@
+$$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, \ldots$$
+Definitions:
+$$
+\displaylines{
+F_i = F_{i-1} + F_{i-2}, \quad F_0 = F_1 = 1, \cr
+F_{-i} = (-1)^{i-1} F_i, \cr
+F_i = \sfrac 1 \sqrt{5} \left(\phi^i - \hat{\phi}^i\right), \cr
+}
+$$
+Cassini's identity: for $i > 0$:
+$$
+F_{i+1} F_{i-1} - F^2_i = (-1)^i.
+$$
+Additive rule:
+$$
+\displaylines{
+F_{n+k} = F_k F_{n+1} + F_{k-1} F_n, \cr
+F_{2n} = F_n F_{n+1} + F_{n-1} F_n. \cr
+}
+$$
+Calculation by matrices:
+$$
+\pmatrix{
+F_{n-2} &F_{n-1} \cr
+F_{n-1} &F_n \cr
+}
+=
+\pmatrix{
+0 &1 \cr
+1 &1 \cr
+}^n.
+$$

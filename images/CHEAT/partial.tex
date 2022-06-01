@@ -1,0 +1,29 @@
+Let $N(x)$ and $D(x)$ be polynomial functions of $x$.
+We can break down $N(x)/D(x)$ using partial fraction expansion.
+First,
+if the degree of $N$ is greater than or equal to the degree of $D$,
+divide $N$ by $D$,
+obtaining
+$$
+{N(x) \over D(x)} = Q(x) + {N'(x) \over D(x)},
+$$
+where the degree of $N'$ is less than that of $D$.
+Second,
+factor $D(x)$.
+Use the following rules:
+For a non-repeated factor:
+$$
+{N(x) \over (x-a) D(x)} = {A \over x-a} + {N'(x) \over D(x)},
+$$
+where
+$$
+A = \left[{N(x) \over D(x)}\right]_{x=a}.
+$$
+For a repeated factor:
+$$
+{N(x) \over (x-a)^m D(x)} = \sum_{k=0}^{m-1}{A_k \over (x-a)^{m-k}} + {N'(x) \over D(x)},
+$$
+where
+$$
+A_k = {1 \over k!}\left[{d^k \over dx^k} \left({N(x) \over D(x)}\right)\right]_{x=a}.
+$$

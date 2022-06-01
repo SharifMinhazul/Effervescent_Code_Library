@@ -1,0 +1,48 @@
+\expandafter\ifx\csname graph\endcsname\relax
+   \csname newbox\expandafter\endcsname\csname graph\endcsname
+\fi
+\ifx\graphtemp\undefined
+  \csname newdimen\endcsname\graphtemp
+\fi
+\expandafter\setbox\csname graph\endcsname
+ =\vtop{\vskip 0pt\hbox{%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.750in
+    \rlap{\kern 0.000in\lower\graphtemp\hbox to 0pt{\ninrm $A$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.350in
+    \rlap{\kern 0.650in\lower\graphtemp\hbox to 0pt{\ninrm $a$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.750in
+    \rlap{\kern 0.450in\lower\graphtemp\hbox to 0pt{\ninrm $c$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.400in
+    \rlap{\kern 0.100in\lower\graphtemp\hbox to 0pt{\ninrm $b$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.750in
+    \rlap{\kern 0.900in\lower\graphtemp\hbox to 0pt{\ninrm $B$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.000in
+    \rlap{\kern 0.250in\lower\graphtemp\hbox to 0pt{\ninrm $C$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.450in
+    \rlap{\kern 0.350in\lower\graphtemp\hbox to 0pt{\ninrm $h$\hss}}%
+    \special{pn 6}%
+    \special{pa 300 78}%
+    \special{pa 100 678}%
+    \special{pa 900 678}%
+    \special{pa 300 78}%
+    \special{fp}%
+    \special{pn 6}%
+    \special{pa 300 78}%
+    \special{pa 300 678}%
+    \special{fp}%
+    \special{pn 6}%
+    \special{pa 300 628}%
+    \special{pa 350 628}%
+    \special{pa 350 678}%
+    \special{fp}%
+    \hbox{\vrule depth0.750in width0pt height 0pt}%
+    \kern 0.900in
+  }%
+}%

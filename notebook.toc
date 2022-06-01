@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Data Structure}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\small template \scriptsize [30 lines]}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Dynamic Programming}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\small template \scriptsize [30 lines]}{1}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Geometry}{1}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\small template \scriptsize [30 lines]}{1}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Graph}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\small template \scriptsize [30 lines]}{2}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Math}{2}{section.5}%
+\contentsline {subsection}{\numberline {5.1}\small template \scriptsize [30 lines]}{2}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Misc}{2}{section.6}%
+\contentsline {subsection}{\numberline {6.1}\small template \scriptsize [30 lines]}{2}{subsection.6.1}%
+\contentsline {section}{\numberline {7}String}{3}{section.7}%
+\contentsline {subsection}{\numberline {7.1}\small Aho-Corasick \scriptsize [124 lines]}{3}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}\small Double Hasing \scriptsize [50 lines]}{4}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}\small KMP \scriptsize [23 lines]}{4}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}\small Palindromic Tree \scriptsize [30 lines]}{4}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}\small Suffix Array \scriptsize [78 lines]}{5}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}\small Trie \scriptsize [28 lines]}{5}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}\small Z-Algorithm \scriptsize [19 lines]}{5}{subsection.7.7}%

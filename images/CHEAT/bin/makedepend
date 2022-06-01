@@ -1,0 +1,27 @@
+#!/bin/sh
+
+mv Makefile Makefile.bak
+
+{
+awk '{
+if ($1 == "#" && $2 == "DO" && $3 == "NOT" && $4 == "DELETE") exit(0);
+else print
+}' < Makefile.bak 
+echo "# DO NOT DELETE THIS LINE -- make depend depends on it." 
+echo 
+
+for f
+do
+  echo -n "`basename $f .tex`.dvi: ";
+  grep '\input' $f |
+  awk '{
+  for (i = 1; i <= NR; i++) if ($i == "\\input") print $(i+1);
+  }' |
+  while read x
+  do
+     y=`basename $x .tex`.tex;
+     echo -n " $y";
+  done;
+  echo;
+done; 
+} > Makefile

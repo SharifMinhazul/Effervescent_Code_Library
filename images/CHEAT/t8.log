@@ -1,0 +1,441 @@
+This is TeX, Version 3.14159265 (TeX Live 2020/Debian) (preloaded format=tex 2021.6.20)  6 AUG 2021 11:04
+**t8.tex
+(./t8.tex (./cheat.tex (./psfig.tex
+\@unused=\write0
+
+psfig: version 1.1
+\ps@stream=\read0
+) (./stables.tex
+\ttglue=\skip18
+\stablestylehelp=\toks12
+\stablelinehelp=\toks13
+\stablesmultiplehelp=\toks14
+\stablesthinline=\dimen16
+\stablesthickline=\dimen17
+\stablesbaselineskip=\dimen18
+\stableslineskip=\dimen19
+\stableslineskiplimit=\dimen20
+\stablesmode=\count26
+\stableslines=\count27
+\stablestemp=\count28
+\stablescount=\count29
+\stableslinet=\count30
+\stablestyle=\count31
+\stablestrutsize=\count32
+\stablestrutbox=\box16
+\stablesborderwidth=\dimen21
+\stablesinternalwidth=\dimen22
+\stablesdummy=\dimen23
+\stablesdummyc=\count33
+) (./macros.tex
+\DisSmall=\count34
+\DisCount=\count35
+\DisNumber=\count36
+\DisSpace=\dimen24
+\DisLSpace=\dimen25
+\DisLeftSkip=\dimen26
+\DisParFillSkip=\dimen27
+\DisBaseLineSkip=\dimen28
+)) <S-Tables Generating Table 1 (./calc3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ 
+
+\hbox(0.0+0.0)x361.34999
+.\glue(\leftskip) -10.0
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(31.00487+26.00485)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(31.00487+26.00485)x345.43744
+..\glue 10.0
+..\tenbf 6
+..\tenbf 6
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(27.25941+22.25941)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(27.25941+22.25941)x346.87654
+..\glue 10.0
+..\tenbf 6
+..\tenbf 7
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(14.9051+9.2999)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(14.9051+9.2999)x363.57286
+..\glue 10.0
+..\tenbf 6
+..\tenbf 8
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(15.89836+9.2999)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(15.89836+9.2999)x290.82262
+..\glue 10.0
+..\tenbf 6
+..\tenbf 9
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(31.62152+26.62152)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(31.62152+26.62152)x349.60873
+..\glue 10.0
+..\tenbf 7
+..\tenbf 0
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(13.61122+8.61124)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(13.61122+8.61124)x231.84142
+..\glue 10.0
+..\tenbf 7
+..\tenbf 1
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(13.61122+8.61124)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(13.61122+8.61124)x274.2751
+..\glue 10.0
+..\tenbf 7
+..\tenbf 2
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(13.61122+8.61124)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(13.61122+8.61124)x265.3862
+..\glue 10.0
+..\tenbf 7
+..\tenbf 3
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(13.61122+8.61124)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(13.61122+8.61124)x203.85321
+..\glue 10.0
+..\tenbf 7
+..\tenbf 4
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(14.5001+9.50012)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(14.5001+9.50012)x229.06947
+..\glue 10.0
+..\tenbf 7
+..\tenbf 5
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+ []
+
+\hbox(14.9051+8.61124)x361.34999
+.\glue(\leftskip) -10.0
+.\hbox(14.9051+8.61124)x301.23955
+..\glue 10.0
+..\tenbf 7
+..\tenbf 6
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\penalty 10000
+.\glue(\parfillskip) 0.0
+.\glue(\rightskip) 0.0
+
+) (./finite.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--27
+ 
+
+\hbox(0.0+0.0)x180.67499
+.\glue(\leftskip) -10.0
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--27
+ []
+
+\hbox(7.5+2.5)x180.67499
+.\glue(\leftskip) -10.0
+.\hbox(7.5+2.5)x112.37498
+..\glue 10.0
+..\mathon
+..\tenrm ^^A
+..\tenrm (
+..\teni u
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--27
+ []
+
+\hbox(8.14003+2.5)x180.67499
+.\glue(\leftskip) -10.0
+.\hbox(8.14003+2.5)x80.77786
+..\glue 10.0
+..\mathon
+..\tenrm ^^A
+..\tenrm (
+..\teni x
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+ 
+
+\hbox(0.0+0.0)x180.67499
+.\glue(\leftskip) -10.0
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+ []
+
+\hbox(7.50006+2.50006)x180.67499
+.\glue(\leftskip) -10.0
+.\hbox(7.50006+2.50006)x96.73595
+..\glue 10.0
+..\mathon
+..\hbox(0.0+10.00012)x10.55559, shifted -7.50006
+...\tenex P
+..\glue(\thinmuskip) 1.66663
+..\teni c
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+ []
+
+\hbox(7.50006+2.50006)x180.67499
+.\glue(\leftskip) -10.0
+.\hbox(7.50006+2.50006)x151.80869
+..\glue 10.0
+..\mathon
+..\hbox(0.0+10.00012)x10.55559, shifted -7.50006
+...\tenex P
+..\tenrm (
+..\teni u
+..etc.
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+ []
+
+\hbox(7.50006+2.50006)x180.67499
+.\glue(\leftskip) -10.0
+.\hbox(7.50006+2.50006)x145.11786
+..\glue 10.0
+..\mathon
+..\hbox(0.0+10.00012)x10.55559, shifted -7.50006
+...\tenex P
+..\glue(\thinmuskip) 1.66663
+..\teni u
+..etc.
+.\glue(\rightskip) 0.0
+
+) (./fact1.tex
+Overfull \hbox (2.31299pt too wide) detected at line 9
+[] [] 
+
+\hbox(37.85454+32.85452)x180.67499
+.\hbox(0.0+0.0)x0.0
+.\glue 1.66663
+.\vbox(37.85454+32.85452)x179.65472
+..\hbox(8.5+3.5)x179.65472
+...\glue(\tabskip) 0.0
+...\hbox(8.5+3.5)x24.39363, glue set 13.23503fil []
+...\glue(\tabskip) 0.0
+...\hbox(8.5+3.5)x155.2611 []
+...\glue(\tabskip) 0.0
+..\glue(\lineskip) 4.0
+..\hbox(8.64003+3.5)x179.65472
+...\glue(\tabskip) 0.0
+...\hbox(8.64003+3.5)x24.39363, glue set 14.19223fil []
+...\glue(\tabskip) 0.0
+...\hbox(8.64003+3.5)x155.2611, glue set 134.15007fil []
+...\glue(\tabskip) 0.0
+..\glue(\lineskip) 4.0
+..\hbox(13.20952+9.35951)x179.65472
+...\glue(\tabskip) 0.0
+...\hbox(13.20952+9.35951)x24.39363, glue set 13.23503fil []
+...\glue(\tabskip) 0.0
+...\hbox(13.20952+9.35951)x155.2611, glue set 14.98186fil []
+...\glue(\tabskip) 0.0
+..etc.
+.\glue 1.66663
+
+
+Overfull \hbox (2.31299pt too wide) detected at line 18
+[] [] 
+
+\hbox(40.1569+35.1569)x180.67499
+.\hbox(0.0+0.0)x0.0
+.\glue 1.66663
+.\vbox(40.1569+35.1569)x179.65472
+..\hbox(9.1427+3.5)x179.65472
+...\glue(\tabskip) 0.0
+...\hbox(9.1427+3.5)x24.39363, glue set 13.23503fil []
+...\glue(\tabskip) 0.0
+...\hbox(9.1427+3.5)x155.2611 []
+...\glue(\tabskip) 0.0
+..\glue(\lineskip) 4.0
+..\hbox(10.63992+3.5)x179.65472
+...\glue(\tabskip) 0.0
+...\hbox(10.63992+3.5)x24.39363, glue set 14.19223fil []
+...\glue(\tabskip) 0.0
+...\hbox(10.63992+3.5)x155.2611, glue set 134.15007fil []
+...\glue(\tabskip) 0.0
+..\glue(\lineskip) 4.0
+..\hbox(13.20952+9.35951)x179.65472
+...\glue(\tabskip) 0.0
+...\hbox(13.20952+9.35951)x24.39363, glue set 13.23503fil []
+...\glue(\tabskip) 0.0
+...\hbox(13.20952+9.35951)x155.2611, glue set 14.98186fil []
+...\glue(\tabskip) 0.0
+..etc.
+.\glue 1.66663
+
+
+Overfull \hbox (0.42952pt too wide) detected at line 28
+[] [] 
+
+\hbox(83.9364+78.9364)x180.67499
+.\hbox(0.0+0.0)x0.0
+.\glue 1.66663
+.\vbox(83.9364+78.9364)x177.77126
+..\hbox(9.1427+3.5)x177.77126
+...\glue(\tabskip) 0.0
+...\hbox(9.1427+3.5)x11.1586 []
+...\glue(\tabskip) 0.0
+...\hbox(9.1427+3.5)x166.61266, glue set 32.85002fil []
+...\glue(\tabskip) 0.0
+..\glue(\lineskip) 4.0
+..\hbox(10.46216+3.5)x177.77126
+...\glue(\tabskip) 0.0
+...\hbox(10.46216+3.5)x11.1586, glue set 11.1586fil []
+...\glue(\tabskip) 0.0
+...\hbox(10.46216+3.5)x166.61266, glue set 98.09305fil []
+...\glue(\tabskip) 0.0
+..\glue(\lineskip) 4.0
+..\hbox(9.1427+3.5)x177.77126
+...\glue(\tabskip) 0.0
+...\hbox(9.1427+3.5)x11.1586 []
+...\glue(\tabskip) 0.0
+...\hbox(9.1427+3.5)x166.61266, glue set 32.85002fil []
+...\glue(\tabskip) 0.0
+..etc.
+.\glue 1.66663
+
+)
+Overfull \vbox (647.99994pt too high) detected at line 12
+
+\vbox(30.0+0.0)x180.67499, glue set - 1.0
+.\glue 0.0 plus 1.0fil
+.\glue 3.0
+.\glue(\parskip) 0.0 plus 1.0
+.\hbox(6.94444+1.94444)x180.67499, glue set 64.78589fil
+..\hbox(0.0+0.0)x0.0
+..\tenrm D
+..\tenrm i
+..\tenrm ^^K (ligature ff)
+..\tenrm e
+..etc.
+.\penalty 10000
+.etc.
+
+(./fact2.tex) - Rows: 4, Columns: 3>
+Overfull \vbox (79.03375pt too high) has occurred while \output is active
+\vbox(643.20255+0.0)x578.15999
+.\glue(\topskip) 0.0
+.\hbox(722.2363+0.0)x578.15999, glue set 0.95766fil
+..\vbox(722.2363+0.0)x577.20233
+...\rule(1.0+0.0)x577.20233
+...\hbox(10.0+5.0)x577.20233 []
+...\rule(1.0+0.0)x577.20233
+...\hbox(10.0+5.0)x577.20233 []
+...\rule(0.4+0.0)x577.20233
+...etc.
+..\glue 0.0 plus 1.0fil minus 1.0fil
+
+
+[8] )
+Output written on t8.dvi (1 page, 13224 bytes).

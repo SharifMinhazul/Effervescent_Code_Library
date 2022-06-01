@@ -5,7 +5,6 @@
 *.log
 *.out
 *.toc
-*.sty
 contents.tex
 
 ## Minted directory

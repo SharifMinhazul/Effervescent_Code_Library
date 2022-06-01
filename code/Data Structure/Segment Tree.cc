@@ -1,5 +1,4 @@
-/*edit:data,combine,build
-  check datatype*/
+/*edit:data,combine,build check datatype*/
 template<typename T>
 struct SegmentTree {
 #define lc (C << 1)

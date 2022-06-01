@@ -1,0 +1,148 @@
+This is TeX, Version 3.14159265 (TeX Live 2020/Debian) (preloaded format=tex 2021.6.20)  6 AUG 2021 11:04
+**t6.tex
+(./t6.tex (./cheat.tex (./psfig.tex
+\@unused=\write0
+
+psfig: version 1.1
+\ps@stream=\read0
+) (./stables.tex
+\ttglue=\skip18
+\stablestylehelp=\toks12
+\stablelinehelp=\toks13
+\stablesmultiplehelp=\toks14
+\stablesthinline=\dimen16
+\stablesthickline=\dimen17
+\stablesbaselineskip=\dimen18
+\stableslineskip=\dimen19
+\stableslineskiplimit=\dimen20
+\stablesmode=\count26
+\stableslines=\count27
+\stablestemp=\count28
+\stablescount=\count29
+\stableslinet=\count30
+\stablestyle=\count31
+\stablestrutsize=\count32
+\stablestrutbox=\box16
+\stablesborderwidth=\dimen21
+\stablesinternalwidth=\dimen22
+\stablesdummy=\dimen23
+\stablesdummyc=\count33
+) (./macros.tex
+\DisSmall=\count34
+\DisCount=\count35
+\DisNumber=\count36
+\DisSpace=\dimen24
+\DisLSpace=\dimen25
+\DisLeftSkip=\dimen26
+\DisParFillSkip=\dimen27
+\DisBaseLineSkip=\dimen28
+)) <S-Tables Generating Table 1 (./pi.tex)
+(./calc.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--37
+ 
+
+\hbox(0.0+0.0)x350.50993
+.\glue(\leftskip) -10.0
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--55
+ 
+
+\hbox(0.0+0.0)x350.50993
+.\glue(\leftskip) -10.0
+.\penalty -10000
+.\glue(\rightskip) 0.0
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--55
+ []
+
+\hbox(13.61122+8.61124)x350.50993
+.\glue(\leftskip) -10.0
+.\hbox(13.61122+8.61124)x229.46506
+..\glue 10.0
+..\tenbf 1
+..\tenbf 4
+..\tenbf .
+..\glue 5.11108 plus 5.74997 minus 0.42592
+..etc.
+.\penalty 10000
+.\glue(\parfillskip) 0.0
+.\glue(\rightskip) 0.0
+
+)
+Overfull \vbox (623.92221pt too high) detected at line 13
+
+\vbox(45.0+0.0)x350.50993, glue set - 1.0
+.\glue 0.0 plus 1.0fil
+.\glue 3.0
+.\glue(\parskip) 0.0 plus 1.0
+.\hbox(6.83331+0.0)x350.50993, glue set 299.1765fil
+..\hbox(0.0+0.0)x0.0
+..\tenrm D
+..\tenrm e
+..\tenrm r
+..\tenrm i
+..etc.
+.\glue -6.0
+.etc.
+
+(./partial.tex
+Underfull \hbox (badness 4024) in paragraph at lines 1--7
+\tenrm tions of $\teni x$\tenrm . We can break down
+
+\hbox(6.94444+0.0)x180.67499, glue set 3.42824
+.\tenrm t
+.\tenrm i
+.\tenrm o
+.\tenrm n
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (4.75092pt too wide) detected at line 25
+[] \tenrm = [] [] + []\teni ;
+
+\hbox(18.01115+13.02782)x180.67499, glue set - 1.0
+.\hbox(14.26508+9.35951)x63.04723
+..\hbox(14.26508+9.35951)x63.04723
+...\hbox(0.0+0.0)x1.2, shifted -2.5
+...\vbox(14.26508+9.35951)x60.64723 []
+...\hbox(0.0+0.0)x1.2, shifted -2.5
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.\tenrm =
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.\vbox(18.01115+13.02782)x17.33226
+..\kern1.0
+..\hbox(4.51111+0.83334)x17.33226
+...\seveni m
+...\sevensy ^^@
+...\sevenrm 1
+..\kern1.16664
+..\hbox(10.50006+5.50006)x17.33226, glue set 1.4439fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+...\hbox(1.0+15.00012)x14.44447, shifted -9.50006 []
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\kern1.66666
+..etc.
+.etc.
+
+) (./quote3.tex) - Rows: 6, Columns: 2>
+Overfull \vbox (79.64667pt too high) has occurred while \output is active
+\vbox(643.20255+0.0)x578.15999
+.\glue(\topskip) 0.0
+.\hbox(722.84921+0.0)x578.15999, glue set 0.64168fil
+..\vbox(722.84921+0.0)x577.51831
+...\rule(1.0+0.0)x577.51831
+...\hbox(10.0+5.0)x577.51831 []
+...\rule(1.0+0.0)x577.51831
+...\hbox(10.0+5.0)x577.51831 []
+...\rule(0.4+0.0)x577.51831
+...etc.
+..\glue 0.0 plus 1.0fil minus 1.0fil
+
+
+[6] )
+Output written on t6.dvi (1 page, 13560 bytes).

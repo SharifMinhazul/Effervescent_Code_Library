@@ -1,0 +1,22 @@
+#!/bin/sh
+
+next=false;
+mag=0.3;
+
+for f
+do
+   if [ $next = true ]
+   then
+      mag=$f;
+      next=false;
+   else
+      if [ $f = -m ]
+      then
+         next=true;
+      else
+         n=`basename $f .fig`;
+         fig2dev -L tpic -m $mag <$f | sed '1,$s/white//g' > $n.pic
+         pic -t -c -n $n.pic | fgrep -v '\baseline' >$n.tex
+      fi;
+   fi;
+done

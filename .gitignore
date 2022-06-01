@@ -6,6 +6,9 @@
 *.out
 *.toc
 contents.tex
+stdclsdv.sty
+titlesec.sty
+tocloft.sty
 
 ## Minted directory
 _minted-notebook/*

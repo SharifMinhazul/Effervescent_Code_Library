@@ -1,0 +1,37 @@
+Definitions:
+\Hrule
+\halign{{\it #}\hfil&\vtop{\parindent=0pt\hsize=1.6in\strut#\strut}\cr
+Loop &An edge connecting a vertex to itself.\cr
+Directed &Each edge has a direction.\cr
+Simple &Graph with no loops or multi-edges.\cr
+Walk &A sequence $v_0e_1v_1\ldots e_\ell v_\ell$.\cr
+Trail &A walk with distinct edges.\cr
+Path &A trail with distinct vertices.\cr
+Connected &A graph where there exists a path between any two vertices.\cr
+Component &A maximal connected subgraph.\cr
+Tree &A connected acyclic graph.\cr
+Free tree &A tree with no root.\cr
+DAG &Directed acyclic graph.\cr
+Eulerian &Graph with a trail visiting each edge exactly once.\cr
+Hamiltonian &Graph with a cycle visiting each vertex exactly once.\cr
+Cut &A set of edges whose removal increases the number of components.\cr
+Cut-set &A minimal cut.\cr
+Cut edge &A size 1 cut.\cr
+k-Connected &A graph connected with the removal of any $k-1$ vertices.\cr
+k-Tough &$\forall S \subseteq V, S \neq \emptyset$ we have \hbox{$k\cdot c(G-S) \leq \vert S \vert$}.\cr
+k-Regular &A graph where all vertices have degree $k$.\cr
+k-Factor &A $k$-regular spanning subgraph.\cr
+Matching &A set of edges, no two of which are adjacent.\cr
+Clique &A set of vertices, all of which are adjacent.\cr
+Ind. set &A set of vertices, none of which are adjacent.\cr
+Vertex cover &A set of vertices which cover all edges.\cr
+Planar graph &A graph which can be embeded in the plane.\cr
+Plane graph &An embedding of a planar graph.\cr
+}
+\Hrule
+$$ \sum_{v\in V} \deg(v) = 2 m.$$
+If $G$ is planar then $n - m + f = 2$, so
+$$
+f \leq 2n - 4, \quad m \leq 3 n - 6.
+$$
+Any planar graph has a vertex with degree $\leq 5$.

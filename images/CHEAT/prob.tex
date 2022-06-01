@@ -1,0 +1,46 @@
+Continuous distributions: If
+$$\Pr[a<X<b] = \int_{a}^b p(x) \, dx,$$
+then $p$ is the probability density function of $X$.
+If
+$$\Pr[X<a] = P(a),$$
+then $P$ is the distribution function of $X$.
+If $P$ and $p$ both exist then
+$$
+P(a) = \int_{-\infty}^a p(x) \, dx.
+$$
+Expectation: If $X$ is discrete
+$$\E[g(X)] = \sum_x g(x) \Pr[X=x].$$
+If $X$ continuous then
+$$\E[g(X)] = \int_{-\infty}^{\infty} \!\!\!   g(x) p(x) \, dx = \int_{-\infty}^{\infty} \!\!\!   g(x) \, d P(x).$$
+Variance, standard deviation:
+$$
+\eqalign{
+\Var[X] &= \E[X^2] - \E[X]^2, \cr
+\sigma &= \sqrt{\Var[X]}. \cr
+}
+$$
+For events $A$ and $B$:
+$$\eqalign{
+\Pr[A \Or B] &= \Pr[A] + \Pr[B]  - \Pr[A \And B] \cr
+\Pr[A \And B] &= \Pr[A] \cdot \Pr[B], \cr &\hbox{iff $A$ and $B$ are independent.} \cr
+\Pr[A \vert B] &= {\Pr[A \And B]  \over \Pr[B]}}$$
+For random variables $X$ and $Y$:
+$$\eqalign{
+\E[X \cdot Y] &= \E[X] \cdot \E[Y], \cr & \hbox{if $X$ and $Y$ are independent.}\cr
+\E[X + Y] &= \E[X] + \E[Y], \cr
+\E[c X] &= c \E[X]. \cr}$$
+Bayes' theorem:
+$$\Pr[A_i\Bar B] = {\Pr[B\Bar A_i] \Pr[A_i] \over \sum_{j=1}^n \Pr[A_j] \Pr[B\Bar A_j]}.$$
+Inclusion-exclusion:
+$$\eqalign{\Pr\Big[\bigvee^n_{i=1} &X_i \Big] = \sum^n_{i=1} \Pr[X_i] + \hbox{}\cr
+&\sum_{k=2}^n (-1)^{k+1} \sum_{i_i<\cdots <i_k} \Pr\Big[\bigwedge^k_{j=1} X_{i_j}\Big].}$$
+Moment inequalities:
+$$\Pr\big[\Bar X\Bar \geq \lambda \E[X]\big] \leq {1 \over \lambda},$$
+$$\Pr\Big[\big\Bar X - \E[X]\big\Bar \geq \lambda \cdot \sigma \Big] \leq {1 \over \lambda^2}.$$
+Geometric distribution:
+$$
+\eqalign{
+\Pr[X = k] &= pq^{k-1}, \qquad q = 1-p, \cr
+\E[X] &= \sum^\infty_{k=1} kpq^{k-1} = {1 \over p}. \cr
+}
+$$

@@ -1,0 +1,15 @@
+Analysis of ``coupon collector'':
+Suppose we are given a random coupon each day,
+and that there are $n$ different types of coupons.
+Further,
+the distribution of coupons is uniform.
+How many days pass before we expect to collect all $n$ types?
+Let $Y_i$ be the number of days to see a new type,
+given $i$ types have been seen.
+The answer will be $$\sum_{i=0}^{n-1} \E[Y_i].$$
+Let $p = (n-i)/n$.
+$Y_i$ is geometrically distributed,
+and so
+$$ \E[Y_i] = \sum^\infty_{k=1} kpq^{k-1} = {n \over n-i}.$$
+The answer is therefore
+$$ \sum_{i=0}^{n-1} {n \over n-i} = n \sum_{i=1}^{n} {1 \over i} = n H_n.$$

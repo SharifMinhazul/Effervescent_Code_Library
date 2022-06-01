@@ -1,0 +1,36 @@
+Ordinary power series:
+$$
+A(x) = \sum_{i=0}^\infty a_i x^i.
+$$
+Exponential power series:
+$$
+A(x) = \sum_{i=0}^\infty a_i {x^i \over i!}.
+$$
+Dirichlet power series:
+$$
+A(x) = \sum_{i=1}^\infty {a_i \over i^x}.
+$$
+Binomial theorem:
+$$(x + y)^n = \sum_{k=0}^n{n \choose k} x^{n-k} y^k.$$
+Difference of like powers:
+$$x^n - y^n = (x-y) \sum_{k=0}^{n-1} x^{n-1-k} y^k.$$
+For ordinary power series:
+$$
+\eqalign{
+\alpha A(x) + \beta B(x) &= \sum_{i=0}^\infty(\alpha a_i + \beta b_i) x^i,\cr
+x^k A(x) &= \sum_{i=k}^\infty a_{i-k} x^i,\cr
+\noalign{\vskip -15pt$${A(x)  - \sum_{i=0}^{k-1} a_i x^i \over x^k} = \sum_{i=0}^\infty a_{i+k} x^i, $$\vskip -15pt}
+A(cx) &= \sum_{i=0}^\infty c^i a_i x^i,\cr
+A'(x) &= \sum_{i=0}^\infty (i+1) a_{i+1} x^i,\cr
+x A'(x) &= \sum_{i=1}^\infty i a_i x^i,\cr
+\int A(x) \, dx &= \sum_{i=1}^\infty {a_{i-1} \over i} x^i,\cr
+{A(x) + A(-x) \over 2}&= \sum_{i=0}^\infty a_{2i} x^{2i},\cr
+{A(x) - A(-x) \over 2}&= \sum_{i=0}^\infty a_{2i+1} x^{2i+1}.\cr
+}
+$$
+Summation: If $b_i = \sum_{j=0}^i a_i$ then
+$$B(x) = {1 \over 1 -x} A(x).$$
+Convolution:
+$$
+A(x)B(x) = \sum_{i=0}^\infty\left(\sum_{j=0}^i a_j b_{i-j}\right)x^i.
+$$

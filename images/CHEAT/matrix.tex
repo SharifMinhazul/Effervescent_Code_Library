@@ -1,0 +1,40 @@
+Multiplication:
+$$ C = A \cdot B, \quad c_{i,j} = \sum_{k=1}^n a_{i,k} b_{k,j}.$$
+Determinants: $\det A \neq 0$ iff $A$ is non-singular.
+$$\det A \cdot B = \det A \cdot \det B,$$
+$$\det A = \sum_\pi \prod_{i=1}^n \sign(\pi) a_{i,\pi(i)}.$$
+$2 \times 2$ and $3 \times 3$ determinant:
+$$ \left\vert \matrix{
+a &b \cr
+c &d \cr
+}\right\vert = a d - b c,
+$$
+$$
+\eqalign{
+\left\vert \matrix{
+a &b &c \cr
+d &e &f \cr
+g &h &i \cr
+}\right\vert &=
+g
+\left\vert \matrix{
+b &c \cr
+e &f \cr
+}\right\vert
+- h
+\left\vert \matrix{
+a &c \cr
+d &f \cr
+}\right\vert
++ i
+\left\vert \matrix{
+a &b \cr
+d &e \cr
+}\right\vert \cr
+&=
+\matrix{
+a e i + b f g + c d h \cr
+\qquad \hbox{} - c e g - f h a - i b d. \cr
+} \cr}$$
+Permanents:
+$$\perm A = \sum_\pi \prod_{i=1}^n a_{i,\pi(i)}.$$

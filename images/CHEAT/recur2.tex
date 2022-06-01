@@ -1,0 +1,35 @@
+$$
+\eqalign{
+1 &\big(T(n) - 3T(n/2) = n\big) \cr
+3 &\big(T(n/2) - 3T(n/4) = n/2\big) \cr
+&\vdots  \qquad \vdots \qquad \vdots\cr
+3^{\log_2 n - 1} &\big(T(2) - 3T(1) = 2\big) \cr
+}$$
+Let $m = \log_2 n$.
+Summing the left side we get $T(n) - 3^mT(1) = T(n) - 3^m =  T(n) - n^k$ where $k = \log_2 3 \approx 1.58496$.
+Summing the right side we get
+$$
+\sum_{i=0}^{m-1} {n \over 2^i} 3^i = n \sum_{i=0}^{m-1} \left(\sfrac 3 2 \right)^i.
+$$
+Let $c = {3 \over 2}$.
+Then we have
+$$
+\eqalign{
+n \sum_{i=0}^{m-1} c^i &= n \left( {c^m - 1 \over c - 1} \right) \cr
+&= 2 n ( c^{\log_2 n } - 1 ) \cr
+&= 2 n ( c^{(k-1) \log_c n } - 1 ) \cr
+&= 2 n^k  - 2n, \cr
+}$$
+and so $T(n) = 3 n^k - 2n$.
+Full history recurrences can often be changed to limited history ones (example):
+Consider
+$$T_i = 1 + \sum^{i-1}_{j=0} T_j, \quad T_0 = 1.$$
+Note that
+$$T_{i+1} = 1 + \sum^i_{j=0} T_j.$$
+Subtracting we find
+$$
+\eqalign{
+T_{i+1} - T_i &= 1 + \sum^i_{j=0} T_j - 1 - \sum^{i-1}_{j=0} T_j \cr
+&= T_i. \cr
+}$$
+And so $T_{i+1} = 2T_i = 2^{i+1}$.

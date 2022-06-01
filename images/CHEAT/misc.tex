@@ -1,0 +1,54 @@
+Bernoulli Numbers ($B_i = 0$, odd $i \neq 1$):
+\vskip 3pt
+\centerline{
+$B_0 = 1$,
+$B_1 = -{ 1 \over 2}$,
+$B_2 = { 1 \over 6}$,
+$B_4 = -{ 1 \over 30 }$,}
+\vskip 2pt
+\centerline{
+$B_6 = { 1 \over 42}$,
+$B_8 = -{ 1 \over 30}$,
+$B_{10} = { 5 \over 66}$. }
+\vskip 3pt
+Change of base, quadratic formula:
+$$\log_b x = {\log_a x \over \log_a b}, \qquad
+{-b \pm \sqrt{b^2 - 4ac} \over 2a}.$$
+Euler's number $e$:
+$$e = 1 + \sfrac 1 2 + \sfrac 1 6 + \sfrac 1 24 + \sfrac 1 120 + \cdots$$
+$$\lim_{n \to \infty} \Big(1 + {x \over n}\Big)^n = e^x.$$
+$$\left(1 + \sfrac 1 n \right)^n < e < \left(1 + \sfrac 1 n \right)^{n+1}.$$
+$$\left(1 + \sfrac 1 n \right)^n =  e - {e \over 2 n} + {11 e \over 24 n^2} - O\left({1 \over n^3}\right). $$
+Harmonic numbers:
+\vskip 3pt
+\centerline{
+$1$,
+${3 \over 2}$,
+${11 \over 6}$,
+${25 \over 12}$,
+${137 \over 60}$,
+${49 \over 20}$,
+${363 \over 140}$,
+${761 \over 280}$,
+${7129 \over 2520}, \ldots$
+}
+\vskip 3pt
+$$ \ln n < H_n < \ln n + 1,$$
+$$ H_n =  \ln n + \gamma + O\bigg({1 \over n} \bigg).$$
+Factorial, Stirling's approximation:
+\vskip 3pt
+{\sevenrm
+\centerline{
+1, 2, 6, 24, 120, 720, 5040, 40320, 362880, $\ldots$}}
+$$ n! = \sqrt{2\pi n} \bigg({n \over e}\bigg)^n\bigg(1 + \Theta\bigg({1\over n}\bigg)\bigg).$$
+Ackermann's function and inverse:
+$$
+\eqalign{
+a(i,j) &= \cases{
+2^j &$i = 1$ \cr
+a(i-1,2) &$j=1$ \cr
+a(i-1,a(i,j-1)) &$i,j \geq 2$\cr
+} \cr
+\alpha(i) &= \min\{j \mid a(j,j) \geq i \}. \cr
+}
+$$

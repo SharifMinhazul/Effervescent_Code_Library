@@ -1,0 +1,43 @@
+\expandafter\ifx\csname graph\endcsname\relax
+   \csname newbox\expandafter\endcsname\csname graph\endcsname
+\fi
+\ifx\graphtemp\undefined
+  \csname newdimen\endcsname\graphtemp
+\fi
+\expandafter\setbox\csname graph\endcsname
+ =\vtop{\vskip 0pt\hbox{%
+    \special{pn 2}%
+    \special{ar 188 573 42 42 -1.117844 0.463648}%
+    \special{pn 2}%
+    \special{ar 131 592 11 11 0 6.28319}%
+    \special{pn 2}%
+    \special{ar 1031 592 11 11 0 6.28319}%
+    \special{pn 2}%
+    \special{ar 825 11 11 11 0 6.28319}%
+    \special{pn 2}%
+    \special{pa 1031 592}%
+    \special{pa 131 592}%
+    \special{pa 825 11}%
+    \special{fp}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.537in
+    \rlap{\kern 0.300in\lower\graphtemp\hbox to 0pt{\fivrm $\theta$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.691in
+    \rlap{\kern 0.881in\lower\graphtemp\hbox to 0pt{\fivrm $(x_1,y_1)$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.117in
+    \rlap{\kern 0.795in\lower\graphtemp\hbox to 0pt{\fivrm $(x_2,y_2)$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.346in
+    \rlap{\kern 0.513in\lower\graphtemp\hbox to 0pt{\fivrm $\ell_2$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.691in
+    \rlap{\kern 0.551in\lower\graphtemp\hbox to 0pt{\fivrm $\ell_1$\hss}}%
+    \graphtemp=.5ex
+    \advance\graphtemp by 0.698in
+    \rlap{\kern 0.000in\lower\graphtemp\hbox to 0pt{\fivrm $(0,0)$\hss}}%
+    \hbox{\vrule depth0.698in width0pt height 0pt}%
+    \kern 1.042in
+  }%
+}%

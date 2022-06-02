@@ -1,0 +1,8 @@
+#include    <ext/pb_ds/assoc_container.hpp>/* For pbds.Don't use tree as variable name.*/
+#include    <ext/pb_ds/tree_policy.hpp>
+
+using namespace __gnu_pbds;
+
+template <typename T>  using orderedSet = tree<T, null_type, less<T>,rb_tree_tag, tree_order_statistics_node_update>;
+    //order_of_key(k) - number of element strictly less than k.
+    //find_by_order(k) - k'th element in set.(0 indexed)(iterator)

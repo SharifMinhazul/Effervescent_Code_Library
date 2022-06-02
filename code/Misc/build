@@ -1,0 +1,3 @@
+#!/bin/bash
+>&2 echo -e "Compiling $1.cpp with -std=gnu++17 $2" &&
+g++ -std=gnu++17 -Wshadow -Wall -Wextra -Wno-unused-result -O2 -g -fsanitize=undefined -fsanitize=address $2 "$1.cpp" -o "$1"

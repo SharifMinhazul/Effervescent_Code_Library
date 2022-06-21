@@ -1,0 +1,8 @@
+1. Size of the block is not always Sqrt, adjust it as necessary. if o(n/b+b) then take n/b = b and calculate b.
+2. MO's Algorithm
+   *it is possible to solve a Mo problem without any remove operation. For L in one block R only increases, for every range we can start L from the last of that block
+3. Sqrt Decomposition by time of queries. 
+   *keep overall solution and sqrt(n) updates in a vector and for a query iterate over all of them, when the vector size exceeds sqrt(n) you can add these updates with overall solution using o(n)  
+4. If sum of N positive numbers are S, there are at most sqrt(S) distinct values.    
+5. Randomization
+6. Baby step, gaint step

@@ -1,6 +1,3 @@
 #!/bin/bash
-bar="------------------------------------"
-build $1 -DSMIE && >&2 echo -e "\tRunning $1\n$bar" && ts=$(date +%s%N) &&
-\time -f "$bar\nMemory Usage   : %M KB" "./$1" &&
->&2 echo -e "Execution Time : $((($(date +%s%N) - $ts)/1000000)) ms"
+build "$1" -DSMIE && >&2 echo -e "Running\t\t: $1\n------------------------------" && "./$1"
 

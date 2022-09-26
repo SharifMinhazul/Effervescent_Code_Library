@@ -17,7 +17,8 @@ def get_sections():
             print(subsection_name)
             relative_path = os.path.join(root, file_name)
             number_of_lines = len(open(relative_path).readlines())
-            subsections.append((relative_path, subsection_name, number_of_lines))
+            hash_value = str(subprocess.check_output("Hash < \"" + relative_path + "\"", shell=True))[2:-3]
+            subsections.append((relative_path, subsection_name, number_of_lines, hash_value))
     return sections[1:]
 
 def get_style(filename):
@@ -41,8 +42,8 @@ def get_tex(sections):
     tex = ''
     for (section_name, subsections) in sections:
         tex += '\\section{%s}\n' % texify(section_name)
-        for (relative_path, subsection_name, number_of_lines) in subsections:
-            tex += '\\subsection{\\small %s  \\scriptsize [%s lines]}\n' % (texify(subsection_name), number_of_lines)
+        for (relative_path, subsection_name, number_of_lines, hash_value) in subsections:
+            tex += '\\subsection{\\small %s  \\scriptsize [%s lines]\\hfill %s}\n' % (texify(subsection_name), number_of_lines, hash_value)
             tex += '\\inputminted{%s}{%s}\n' % (get_style(relative_path), '"' + relative_path + '"')
         tex += '\n'
     return tex

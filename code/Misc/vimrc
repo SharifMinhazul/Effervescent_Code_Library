@@ -1,17 +1,13 @@
 filetype plugin indent on
-set rnu hls is ar aw wrap sb spr tm=300 mouse=a
-hi CursorLine cterm=none
+set rnu hls is ar aw wrap sb spr mouse=a
 
 let mapleader = " "
 im jk <esc>
 tno jk <c-w>N
-no <c-c> "+y
-no <c-a> ggVG
 no <leader>d "_d
 im {<cr> {<cr>}<esc>O
-nn <leader>f :let @+ = expand("%:p")<cr>
-nn <leader>cd :cd %:h<cr>
-nn <leader>b :ls<cr>:b
+nn ff :let @+ = expand("%:p")<cr>
+nn cd :cd %:h<cr>
 
 au BufNewFile *.cpp -r ./template.cpp | 14
 

@@ -5,8 +5,8 @@ SuffixArray(string const& s) {
   build_suffix(s + char(1));
   p.erase(p.begin());
   build_rank(p.size());
-  build_lcp(s);
-  build_sparse_table(lcp.size());
+  build_lcp(s); // doesn't work for
+  build_sparse_table(lcp.size()); //single char
 }
 void build_suffix(string const& s) {
   int n = s.size();

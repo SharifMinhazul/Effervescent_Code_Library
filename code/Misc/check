@@ -1,0 +1,15 @@
+#!/bin/bash
+build $1
+TESTNO=0
+for INP in $1.in*; do
+	printf "\n=========\n"
+	printf "INPUT %d" $TESTNO
+	printf "\n=========\n"
+    cat $INP
+	printf "\n=========\n"
+	printf "OUTPUT %d" $TESTNO
+	printf "\n=========\n"
+    ./$1 < $INP
+    mv $INP $1.in$TESTNO 2>/dev/null
+    TESTNO=$((TESTNO+1))
+done

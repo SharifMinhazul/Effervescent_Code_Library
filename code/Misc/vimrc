@@ -1,7 +1,7 @@
 filetype plugin indent on
-set rnu wfw hls is ar aw wrap sb spr mouse=a
+set rnu wfw hls is ar aw wrap mouse=a
 
-let mapleader = " "
+let mapleader=' '
 im jk <esc>
 tno jk <c-w>N
 no <leader>d "_d

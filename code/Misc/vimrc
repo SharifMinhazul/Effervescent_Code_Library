@@ -1,5 +1,5 @@
 filetype plugin indent on
-set rnu hls is ar aw wrap sb spr mouse=a
+set rnu wfw hls is ar aw wrap sb spr mouse=a
 
 let mapleader = " "
 im jk <esc>

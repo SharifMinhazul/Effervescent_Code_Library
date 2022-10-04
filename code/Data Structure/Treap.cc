@@ -1,11 +1,11 @@
 struct Treap {
   struct Node {
     int val, priority, cnt;  // value, priority, subtree size
-    Node *l, *r;             // left child,right child pointer
+    Node* l, * r;             // left child,right child pointer
     Node() {} //rng from template
     Node(int key) : val(key), priority(rng()), l(nullptr), r(nullptr) {}
   };
-  typedef Node *node;
+  typedef Node* node;
   node root;
   Treap() : root(0) {}
   int cnt(node t) { return t ? t->cnt : 0; }  // return subtree size
@@ -16,7 +16,7 @@ struct Treap {
     ;  // Lazy Propagation
   }
 
-  void combine(node &cur, node l, node r) {
+  void combine(node& cur, node l, node r) {
     if (!l) {
       cur = r;
       return;
@@ -28,11 +28,11 @@ struct Treap {
     // Merge Operations like in segment tree
   }
 
-  void reset(node &cur) {
+  void reset(node& cur) {
     if (!cur) return;  // To reset other fields of cur except value and cnt
   }
 
-  void operation(node &cur) {
+  void operation(node& cur) {
     if (!cur) return;
     reset(cur);
     combine(cur, cur->l, cur);
@@ -40,20 +40,21 @@ struct Treap {
   }
   // Split(T,key): split the tree in two tree. Left pointer contains all value
   // less than or equal to key.Right pointer contains the rest.
-  void split(node t, node &l, node &r, int key) {
+  void split(node t, node& l, node& r, int key) {
     if (!t)
       return void(l = r = nullptr);
     push(t);
     if (t->val <= key) {
       split(t->r, t->r, r, key), l = t;
 
-    } else {
+    }
+    else {
       split(t->l, l, t->l, key), r = t;
     }
     updateCnt(t);
     operation(t);
   }
-  void splitPos(node t, node &l, node &r, int k, int add = 0) {
+  void splitPos(node t, node& l, node& r, int k, int add = 0) {
     if (!t) return void(l = r = 0);
     push(t);
     int idx = add + cnt(t->l);
@@ -66,7 +67,7 @@ struct Treap {
   }
   // Merge(T1,T2): merges 2 tree into one.The tree with root of higher
   // priority becomes the new root.
-  void merge(node &t, node l, node r) {
+  void merge(node& t, node l, node r) {
     push(l);
     push(r);
     if (!l || !r)
@@ -77,6 +78,19 @@ struct Treap {
       merge(r->l, l, r->l), t = r;
     updateCnt(t);
     operation(t);
+  }
+
+  node merge_treap(node l, node r) {
+    if (!l) return r;
+    if (!r) return l;
+    if (l->priority < r->priority) swap(l, r);
+    node L, R;
+    split(r, L, R, l->val);
+    l->r = merge_treap(l->r, R);
+    l->l = merge_treap(L, l->l);
+    updateCnt(l);
+    operation(l);
+    return l;
   }
   // insert creates a set.all unique value.
   void insert(int val) {

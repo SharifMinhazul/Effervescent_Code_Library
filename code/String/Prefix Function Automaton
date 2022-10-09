@@ -1,0 +1,21 @@
+/* create prefix function array in 26n.*/
+
+int aut[mxn][26];
+int lps[mxn];
+
+void automaton(string &s){
+	int n = s.size();
+	aut[0][s[0] - 'a'] = 1;
+	for(int i = 1; i < n; i++){
+		for(int j = 0; j < 26; j++){
+			if(j == s[i] - 'a'){
+				aut[i][j] = i + 1;
+				lps[i + 1] = aut[lps[i]][j];
+			}
+			else {
+				aut[i][j] = aut[lps[i]][j];
+			}
+		}
+		cout << lps[i + 1] << endl;
+	}
+}

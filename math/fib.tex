@@ -1,0 +1,27 @@
+$$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, \ldots$$
+Definitions and identities:
+$$
+\eqalign{
+F_i &= F_{i-1} + F_{i-2}, \quad F_0 = F_1 = 1, \cr
+F_{-i} &= (-1)^{i-1} F_i, \quad F_i = \sfrac 1 \sqrt{5} \left(\phi^i - \hat{\phi}^i\right), \cr
+}
+$$
+$$
+\eqalign{
+F_{i+1} F_{i-1} - F^2_i &= (-1)^i, \quad \hbox{for $i > 0$,} \cr
+F_{n+k} &= F_k F_{n+1} + F_{k-1} F_n, \cr
+F_{2n} &= F_n F_{n+1} + F_{n-1} F_n, \cr
+\pmatrix{
+F_{n-2} &F_{n-1} \cr
+F_{n-1} &F_n \cr
+}
+&=
+\pmatrix{
+0 &1 \cr
+1 &1 \cr
+}^n. \cr
+}
+$$
+Every integer $n$ has a unique representation
+$$ n = F_{k_1} + F_{k_2} + \cdots + F_{k_m},$$
+where $k_i \geq k_{i+1} + 2$ for $1 \leq i < m$ and $k_m \geq 2$.

@@ -1,0 +1,38 @@
+Difference, shift operators:
+$$
+\eqalign{
+\Delta f(x) &= f(x+1) - f(x), \cr
+\E f(x) &= f(x+1). \cr
+}
+$$
+Fundamental Theorem:
+$$
+f(x) = \Delta F(x) \Leftrightarrow \sum f(x) \delta x = F(x) + C.
+$$
+$$
+\sum_a^b f(x) \delta x = \sum_{i=a}^{b-1} f(i).
+$$
+Differences:
+\vskip -1pt
+\SDis 10pt
+\baselineskip=17pt
+\Fm \Delta(c u) = c \Delta u, \Mf
+\Fm \Delta(u + v) = \Delta u + \Delta v, \Mf
+\Fm \Delta(uv) = u\Delta v + \E v \Delta u, \Mf
+\Fm \Delta(x^{\underline n}) = n x^{\underline n - 1}, \Mf
+\Fm \Delta(H_x) = x^{\underline{-1}}, \Mf
+\Fm \Delta(2^x) = 2^x, \Mf
+\Fm \Delta(c^x) = (c-1)c^x, \Mf
+\Fm \Delta{x \choose m} = {x \choose m-1}. \Mf
+\EndDis
+Sums:
+\vskip -3pt
+\SDis 10pt
+\Fm \sum c u \, \delta x = c \sum u \, \delta x, \Mf
+\Fm \sum (u + v) \, \delta x = \sum u \, \delta x + \sum v \, \delta x, \Mf
+\Fm \sum u \Delta v \, \delta x = uv - \sum\E v \Delta u \, \delta x, \Mf
+\Fm \sum x^{\underline n}\, \delta x = {x^{\underline{n + 1}} \over m + 1}, \Mf
+\Fm \sum x^{\underline{-1}} \, \delta x = H_x, \Mf
+\Fm \sum c^x \, \delta x = {c^x \over c-1}, \Mf
+\Fm \sum {x \choose m} \, \delta x = {x \choose m+1}. \Mf
+\EndDis

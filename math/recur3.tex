@@ -1,0 +1,43 @@
+Generating functions:
+\halign{\quad#\hfil&\vtop{\parindent=0pt\hsize=2.0in\strut#\strut}\cr
+1. &Multiply both sides of the equation by $x^i$. \cr
+2. &Sum both sides over all $i$ for which the equation is valid. \cr
+3. &Choose a generating function $G(x)$.
+Usually $G(x) = \sum_{i=0}^\infty x^i g_i$.\cr
+3. &Rewrite the equation in terms of the generating function $G(x)$. \cr
+4. &Solve for $G(x)$. \cr
+5. &The coefficient of $x^i$ in $G(x)$ is $g_i$.\cr
+%6. &Check the answer! \cr
+}
+Example:
+$$
+g_{i+1} = 2 g_i + 1, \quad g_0 = 0.
+$$
+Multiply and sum:
+$$
+\sum_{i\geq 0} g_{i+1} x^i = \sum_{i\geq 0} 2 g_i x^i + \sum_{i\geq 0} x^i.
+$$
+We choose $G(x) = \sum_{i\geq 0} x^i g_i$.
+Rewrite in terms of $G(x)$:
+$$
+{G(x) - g_0 \over x} = 2 G(x) + \sum_{i\geq 0} x^i.
+$$
+Simplify:
+$$
+{G(x) \over x} = 2 G(x) + {1 \over 1 -x}.
+$$
+Solve for $G(x)$:
+$$
+G(x) =  {x \over (1 -x)(1-2x)}.
+$$
+Expand this using partial fractions:
+$$
+\eqalign{
+G(x) &= x \left( {2 \over 1 -2x} - {1 \over 1 - x}\right) \cr
+&= x \left( 2 \sum_{i\geq 0} 2^i x^i - \sum_{i\geq 0} x^i\right) \cr
+&= \sum_{i\geq 0} (2^{i+1} - 1) x^{i+1}.\cr
+}
+$$
+So $g_i = 2^i - 1$.
+%Plugging in some small values,
+%this is confirmed.

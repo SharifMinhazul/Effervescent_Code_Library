@@ -1,0 +1,72 @@
+Taylor's series:
+$$
+f(x) = f(a) + (x-a)f'(a) + {(x-a)^2 \over 2} f''(a) + \cdots = \sum_{i=0}^\infty {(x-a)^i \over i!} f^{(i)}(a).
+$$
+\vskip -9pt
+Expansions:
+\halign{\hfil$\displaystyle#$\hfil&\quad$\!{} = #$\hfil&\hskip0.02in$\displaystyle{}=#$\hfil\hskip-0.03in\cr
+{1 \over 1 - x}
+&1 + x + x^2 + x^3 + x^4 + \cdots
+&\sum_{i=0}^\infty x^i,\cr
+{1 \over 1 - c x}
+&1 + c x + c^2 x^2 + c^3 x^3 + \cdots
+&\sum_{i=0}^\infty c^i x^i,\cr
+{1 \over 1 - x^n}
+&1 + x^n + x^{2n} + x^{3n} + \cdots
+&\sum_{i=0}^\infty x^{ni},\cr
+{x \over (1 - x)^2}
+&x + 2 x^2 + 3 x^3 + 4 x^4 + \cdots
+&\sum_{i=0}^\infty i x^i,\cr
+x^k {d^n \over dx^n}\left({1 \over 1 - x}\right)
+&x + 2^n x^2 + 3^n x^3 + 4^n x^4 + \cdots
+&\sum_{i=0}^\infty i^n x^i,\cr
+e^x
+&1 + x + \frac 1 2 x^2 + \frac 1 6 x^3 + \cdots
+&\sum_{i=0}^\infty {x^i \over i!},\cr
+\ln (1 + x)
+&x - \frac 1 2 x^2 + \frac 1 3 x^3 - \frac 1 4 x^4  - \cdots
+&\sum_{i=1}^\infty (-1)^{i+1} {x^i \over i},\cr
+\cr 
+\ln {1 \over 1 - x}
+&x + \frac 1 2 x^2 + \frac 1 3 x^3 + \frac 1 4 x^4  + \cdots
+&\sum_{i=1}^\infty {x^i \over i},\cr
+\sin x
+&x - \frac 1 3! x^3  + \frac 1 5! x^5 - \frac 1 7! x^7 +  \cdots
+&\sum_{i=0}^\infty (-1)^i {x^{2i+1} \over (2i+1)!},\cr
+\cos x
+&1 - \frac 1 2! x^2  + \frac 1 4! x^4 - \frac 1 6! x^6 +  \cdots
+&\sum_{i=0}^\infty (-1)^i {x^{2i} \over (2i)!} ,\cr
+\tan^{-1} x
+&x - \frac 1 3 x^3  + \frac 1 5 x^5 - \frac 1 7 x^7 +  \cdots
+&\sum_{i=0}^\infty (-1)^i {x^{2i+1} \over (2i+1)} ,\cr
+(1+x)^n
+&1 + n x + \frac n(n-1) 2 x^2 +  \cdots
+&\sum_{i=0}^\infty {n \choose i} x^i ,\cr
+{1 \over (1-x)^{n+1}}
+&1 + (n+1) x + {n+2 \choose 2} x^2 +  \cdots
+&\sum_{i=0}^\infty {i+ n \choose i} x^i ,\cr
+{x \over e^x - 1}
+&1 - \frac 1 2 x + \frac 1 12 x^2 - \frac 1 720 x^4 + \cdots
+&\sum_{i=0}^\infty {B_i x^i \over i!} ,\cr
+{1 \over 2x}(1 - \sqrt{1-4x})
+&1 + x + 2 x^2 + 5 x^3 +  \cdots
+&\sum_{i=0}^\infty {1 \over i+1}{2i \choose i}x^i ,\cr
+{1 \over \sqrt{1-4x}}
+&1 + x + 2 x^2 + 6 x^3 + \cdots
+&\sum_{i=0}^\infty {2i \choose i}x^i ,\cr
+{1 \over \sqrt{1-4x}}\left({1 - \sqrt{1-4x} \over 2x}\right)^n
+&1 + (2+n)x + {4+n \choose 2} x^2 + \cdots
+&\sum_{i=0}^\infty {2i+n \choose i}x^i ,\cr
+{1 \over 1-x}\ln{1 \over 1- x}
+&x + \frac 3 2 x^2 + \frac 11 6 x^3 + \frac 25 12 x^4 + \cdots
+&\sum_{i=1}^\infty H_i x^i,\cr
+{1 \over 2}\left(\ln{1 \over 1- x}\right)^2
+&\frac 1 2 x^2 + \frac 3 4 x^3 + \frac 11 24 x^4 + \cdots
+&\sum_{i=2}^\infty {H_{i-1} x^i \over i},\cr
+{x \over 1 - x - x^2}
+&x + x^2 + 2 x^3 + 3 x^4 +  \cdots
+&\sum_{i=0}^\infty F_i x^i,\cr
+{F_n x \over 1 - (F_{n-1} + F_{n+1})x - (-1)^n x^2}
+&F_n x + F_{2n} x^2 + F_{3n} x^3 + \cdots
+&\sum_{i=0}^\infty F_{ni} x^i.\cr
+}

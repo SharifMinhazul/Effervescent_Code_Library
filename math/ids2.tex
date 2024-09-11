@@ -1,0 +1,30 @@
+\NDis 14 10pt
+\baselineskip=28pt
+\Fm \Cycle n 1 = (n-1)!, \Mf
+\Fm \Cycle n 2 = (n-1)!H_{n-1}, \Mf
+\Fm \Cycle n n = 1, \Mf
+\Fm \Cycle n k \geq \Subset n k, \Mf
+\Fm \Cycle n k = (n-1) \Cycle{n-1} k + \Cycle{n-1} {k-1}, \Mf
+\Fm \Subset n {n-1} = \Cycle n {n-1} = {n \choose 2}, \Mf
+\Fm \sum_{k=0}^n\Cycle n k = n!, \Mf
+\Fm C_n = {1\over n+1}{2n \choose n}, \Mf
+\Fm \Eul n 0 = \Eul n {n-1} = 1, \Mf
+\Fm \Eul n k = \Eul n {n-1-k}, \Mf
+\Fm \Eul n k = (k+1)\Eul {n-1} k + (n-k)\Eul {n-1} {k-1}, \Mf
+\Fm \Eul 0 k = \cases{
+1 &if $k=0$, \cr
+0 &otherwise \cr
+} \Mf
+\Fm \Eul n 1 = 2^n - n - 1,\Mf
+\Fm \Eul n 2 = 3^n - (n+1)2^n + {n+1 \choose 2},\Mf
+\Fm x^n = \sum_{k=0}^n \Eul n k {x+k \choose n}, \Mf
+\Fm \Eul n m = \sum_{k=0}^m {n+1 \choose k} (m+1-k)^n(-1)^k, \Mf
+\Fm m! \Subset n m = \sum_{k=0}^n \Eul n k {k \choose n-m}, \Mf
+\Fm \Eul n m =\sum_{k=0}^n \Subset n k {n-k \choose m} (-1)^{n-k-m}k!, \Mf
+\Fm \Euls n 0 = 1, \Mf
+\Fm \Euls n n = 0 \quad \hbox{for $n\neq 0$}, \Mf
+\Fm \Euls n k = (k+1)\Euls{n-1} k + (2n-1-k)\Euls{n-1} {k-1}, \Mf
+\Fm \sum_{k=0}^n \Euls n k = {(2n)^{\underline{n}} \over 2^n}, \Mf
+\Fm \Subset x {x-n} = \sum_{k=0}^n \Euls n k {x+n-1-k \choose 2n}, \Mf
+\Fm \Subset {n+1} {m+1} = \sum_k {n \choose k} \Subset k m = \sum_{k=0}^n \Subset k m (m+1)^{n-k}, \Mf
+\EndDis

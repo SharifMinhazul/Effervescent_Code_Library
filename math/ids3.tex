@@ -1,0 +1,16 @@
+\vskip 0.10in
+\NDis 38 10pt
+\Fm \Cycle {n+1} {m+1} = \sum_k \Cycle n k {k \choose m} = \sum_{k=0}^n \Cycle k
+ m n^{\underline{n-k}} = n! \sum_{k=0}^n {1 \over k!} \Cycle k m, \Mf
+\Fm \Cycle x {x-n} = \sum_{k=0}^n \Euls n k {x+k \choose 2n}, \Mf
+\Fm \Subset n m = \sum_k {n \choose k} \Subset {k+1} {m+1}(-1)^{n-k}, \Mf
+\Fm \Cycle n m = \sum_k \Cycle {n+1} {k+1} {k \choose m}(-1)^{m-k}, \Mf
+\Fm \Subset {m+n+1} m = \sum_{k=0}^m k  \Subset {n+k} k, \Mf
+\Fm \Cycle {m+n+1} m = \sum_{k=0}^m k  (n+k)\Cycle {n+k} k, \Mf
+\Fm {n \choose m} = \sum_k \Subset {n+1} {k+1} \Cycle k m (-1)^{m-k}, \Mf
+\Fm (n-m)!{n \choose m} = \sum_k \Cycle {n+1} {k+1} \Subset k m (-1)^{m-k}, \quad \hbox{for $n \geq m$,} \Mf
+\Fm \Subset n {n-m} = \sum_k {m-n \choose m+k} {m+n \choose n+k}\Cycle {m+k} k, \Mf
+\Fm \Cycle n {n-m} = \sum_k {m-n \choose m+k} {m+n \choose n+k}\Subset {m+k} k, \Mf
+\Fm \Subset n {\ell+m}{\ell+m \choose \ell} = \sum_k \Subset k {\ell} \Subset {n-k} m {n \choose k}, \Mf
+\Fm \Cycle n {\ell+m}{\ell+m \choose \ell} = \sum_k \Cycle k {\ell} \Cycle {n-k} m {n \choose k}. \Mf
+\EndDis

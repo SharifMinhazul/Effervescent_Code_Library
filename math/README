@@ -1,0 +1,24 @@
+Sandy,
+
+Here's a quick reference `cheat' sheet for theory people
+which I've been working on. It has most of those formulas
+which I always forget and have to look up in books, notes,
+etc....
+
+Most of the material is out of Concrete Mathematics,
+but not all of it. Some of it is just amusing. I'm sure that
+there are still typos in it.
+
+It's all done in TeX, except for one postscript picture.
+It needs to print on a PostScript printer. I can send you
+the TeX source if you want, but it's messy.
+
+If you find it useful, or spot any typos, or have suggestions
+for additions, let me know. I don't really want to distribute
+it widely until most of the errors are found.
+
+Steve
+
+PS. Of course I should really be working on research, but when
+I get bored or stuck, this gives me something constructive to do.
+Actually, I learned a lot just making this sheet up.

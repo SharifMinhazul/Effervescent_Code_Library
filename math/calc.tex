@@ -1,0 +1,55 @@
+\def\dudx{{du \over dx}}
+Derivatives:
+\vskip -6pt
+\NDis 1 10pt
+\Fm {d(cu) \over dx} = c \dudx, \Mf
+\Fm {d(u+v) \over dx} = \dudx + {dv \over dx}, \Mf
+\Fm {d(uv) \over dx} = u {dv \over dx} + v \dudx, \Mf
+\Fm {d(u^n) \over dx} = nu^{n-1}\dudx, \Mf
+\Fm {d(u/v) \over dx} = {v\big(\dudx\big) - u\big({dv \over dx}\big) \over v^2}, \Mf
+\Fm {d(e^{cu}) \over dx} = ce^{cu}\dudx, \Mf
+\Fm {d(c^u) \over dx} = (\ln c) c^u\dudx, \Mf
+\Fm {d(\ln u) \over dx} = {1 \over u} \dudx, \Mf
+\Fm {d(\sin u) \over dx} = \cos u \dudx, \Mf
+\Fm {d(\cos u) \over dx} = - \sin u \dudx, \Mf
+\Fm {d(\tan u) \over dx} = \sec^2 u \dudx, \Mf
+\Fm {d(\cot u) \over dx} = \csc^2 u \dudx, \Mf
+\Fm {d(\sec u) \over dx} = \tan u \,\sec u \dudx, \Mf
+\Fm {d(\csc u) \over dx} = - \cot u \,\csc u \dudx, \Mf
+\Fm {d(\arcsin u) \over dx} = {1 \over \sqrt{1 - u^2}}\dudx, \Mf
+\Fm {d(\arccos u) \over dx} = {-1 \over \sqrt{1 - u^2}}\dudx, \Mf
+\Fm {d(\arctan u) \over dx} = {1 \over 1 + u^2}\dudx, \Mf
+\Fm {d(\arccot u) \over dx} = {-1 \over 1 + u^2}\dudx, \Mf
+\Fm {d(\arcsec u) \over dx} = {1 \over u \sqrt{1 - u^2}}\dudx, \Mf
+\Fm {d(\arccsc u) \over dx} = {-1 \over u \sqrt{1 - u^2}}\dudx, \Mf
+\Fm {d(\sinh u) \over dx} = \cosh u \dudx, \Mf
+\Fm {d(\cosh u) \over dx} = \sinh u \dudx, \Mf
+\Fm {d(\tanh u) \over dx} = \sech^2 u \dudx, \Mf
+\Fm {d(\coth u) \over dx} = -\csch^2 u \dudx, \Mf
+\Fm {d(\sech u) \over dx} = -\sech u \,\tanh u\dudx, \Mf
+\Fm {d(\csch u) \over dx} = -\csch u \,\coth u\dudx, \Mf
+\Fm {d(\arcsinh u) \over dx} = {1 \over \sqrt{1 + u^2}}\dudx, \Mf
+\Fm {d(\arccosh u) \over dx} = {1 \over \sqrt{u^2 - 1}}\dudx, \Mf
+\Fm {d(\arctanh u) \over dx} = {1 \over 1 - u^2}\dudx, \Mf
+\Fm {d(\arccoth u) \over dx} = {1 \over u^2 - 1}\dudx, \Mf
+\Fm {d(\arcsech u) \over dx} = {-1 \over u \sqrt{1 - u^2}}\dudx, \Mf 
+\Fm {d(\arccsch u) \over dx} = {-1 \over \vert u \vert \sqrt{1 + u^2}}\dudx. \Mf
+\EndDis
+Integrals:
+\vskip -6pt
+\NDis 1 10pt
+\Fm \int c u \, dx = c \int u \, dx, \Mf
+\Fm \int (u + v) \, dx = \int u \, dx + \int v \, dx, \Mf
+\Fm \int x^n \, dx = {1 \over n+1}x^{n+1}, \quad n \neq -1, \Mf
+\Fm \int {1 \over x} dx = \ln x, \Mf
+\Fm \int e^x \, dx = e^x, \Mf
+\Fm \int {dx \over 1 + x^2} = \arctan x, \Mf
+\Fm \int u {dv \over dx} dx = uv - \int v {du \over dx} dx, \Mf
+\Fm \int \sin x \, dx = -\cos x, \Mf
+\Fm \int \cos x \, dx = \sin x, \Mf
+\Fm \int \tan x \, dx = -\ln \vert \cos x \vert, \Mf
+\Fm \int \cot x \, dx = \ln \vert \cos x \vert, \Mf
+\Fm \int \sec x \, dx = \ln \vert \sec x + \tan x \vert, \Mf
+\Fm \int \csc x \, dx = \ln \vert \csc x + \cot x \vert, \Mf
+\Fm \int \arcsin \sfrac x a dx = \arcsin \sfrac x a + \sqrt{a^2 - x^2}, \quad \hbox{$a > 0$}, \Mf
+\EndDis

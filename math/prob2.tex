@@ -1,0 +1,21 @@
+Binomial distribution:
+$$
+\eqalign{
+\Pr[X = k] &= {n \choose k} p^k q^{n-k}, \qquad q = 1-p, \cr
+\E[X] &= \sum^n_{k=1} k {n \choose k} p^k q^{n-k} = n p. \cr
+}
+$$
+Poisson distribution:
+$$
+\Pr[X = k] = {e^{-\lambda} \lambda^k \over k!}, \quad  \E[X] = \lambda.
+$$
+Normal (Gaussian) distribution:
+$$
+p(x) = {1 \over \sqrt{2 \pi} \sigma} e^{-(x-\mu)^2/2\sigma^2}, \quad \E[X] = \mu.
+$$
+The ``coupon collector'':
+We are given a random coupon each day,
+and there are $n$ different types of coupons.
+The distribution of coupons is uniform.
+The expected number of days to pass before we to collect all $n$ types is
+$$n H_n.$$

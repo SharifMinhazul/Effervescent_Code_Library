@@ -1,0 +1,42 @@
+Master method:
+$$T(n) = aT(n/b) + f(n), \quad a\geq 1, b > 1$$
+If $\exists \epsilon > 0$ such that $f(n) = O(n^{\log_b a - \epsilon})$ then
+$$T(n) = \Theta(n^{\log_b a}).$$
+\par
+If $f(n) = \Theta(n^{\log_b a})$ then
+$$T(n) = \Theta(n^{\log_b a} \log_2 n).$$
+\par
+If $\exists \epsilon > 0$ such that $f(n) = \Omega(n^{\log_b a + \epsilon})$,
+and $\exists c < 1$ such that $a f(n/b) \leq cf(n)$ for large $n$,
+then
+$$T(n) = \Theta(f(n)).$$
+\par
+%\vskip 0.10in
+Substitution (example): Consider the following recurrence
+$$T_{i+1} = 2^{2^i} \cdot T_i^2, \quad T_1 = 2.$$
+Note that $T_i$ is always a power of two.
+Let $t_i = \log_2 T_i$.
+Then we have
+$$
+t_{i+1} = 2^i + 2 t_i, \quad t_1 = 1.
+$$
+Let $u_i = t_i/2^i$.
+Dividing both sides of the previous equation by $2^{i+1}$ we get
+$$
+{t_{i+1} \over 2^{i+1}} = {2^i \over 2^{i+1}} + {t_i \over 2^i}.
+$$
+Substituting we find
+$$
+u_{i+1} = \sfrac 1 2 + u_i, \qquad u_1 = \sfrac 1 2 ,
+$$
+which is simply $u_i = i/2$.
+So we find that $T_i$ has the closed form $T_i = 2^{i2^{i-1}}$.
+%\vskip 1em
+\par
+Summing factors (example): Consider the following recurrence
+$$T(n) = 3T(n/2) + n, \quad T(1) = 1.$$
+Rewrite so that all terms involving $T$ are on the
+left side
+$$T(n) - 3T(n/2) = n.$$
+Now expand the recurrence,
+and choose a factor which makes the left side ``telescope''

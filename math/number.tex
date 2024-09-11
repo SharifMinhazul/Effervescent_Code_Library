@@ -1,0 +1,58 @@
+The Chinese remainder theorem:
+There exists a number $C$ such that:
+\vskip 0pt
+$$
+\eqalign{
+C &\equiv r_{1} \bmod m_{1} \cr
+&\vdots \quad \vdots \quad \vdots \cr
+C &\equiv r_{n} \bmod m_{n} \cr
+}
+$$
+if $m_{i}$ and $m_{j}$ are relatively prime for $i\neq j$.
+\vskip 3pt
+\par
+Euler's function:
+$\phi(x)$ is the number of positive integers less than $x$ relatively prime to $x$.
+If $\prod_{i=1}^n p^{e_i}_i$ is the prime factorization of $x$ then
+$$\phi(x) = \prod_{i=1}^n p^{e_i - 1}_i (p_i - 1).$$
+Euler's theorem:
+If $a$ and $b$ are relatively prime then
+$$ 1 \equiv a^{\phi(b)} \bmod b. $$
+Fermat's theorem:
+$$ 1 \equiv a^{p-1} \bmod p. $$
+The Euclidean algorithm:
+if $a > b$ are integers then
+$$\gcd(a, b) = \gcd(a \bmod b, b).$$
+If $\prod_{i=1}^n p^{e_i}_i$ is the prime factorization of $x$ then
+$$S(x) = \sum_{d\vert x} d = \prod_{i=1}^n {p^{e_i+1}_i - 1 \over p_i - 1}.$$
+Perfect Numbers: $x$ is an even perfect number iff $x = 2^{n-1}(2^n - 1)$ and $2^n - 1$ is prime.
+Wilson's theorem: $n$ is a prime iff
+$$
+(n-1)! \equiv -1 \bmod n.
+$$
+M\"obius inversion:
+$$
+\mu(i) = \cases{
+1 &if $i = 1$. \cr
+0 &if $i$ is not square-free. \cr
+(-1)^r &if $i$ is the product of\cr
+&$r$ distinct primes. \cr
+}
+$$
+If
+$$
+G(a) = \sum_{d \vert a} F(d),
+$$
+then
+$$
+F(a) = \sum_{d \vert a} \mu(d) G\Big({a \over d}\Big).
+$$
+Prime numbers:
+$$
+\eqalign{
+p_n &= n \ln n + n \ln \ln n - n + n {\ln \ln n \over \ln n}\cr
+ &\qquad {} + O\bigg({n \over \ln n}\bigg), \cr
+\pi(n) &= {n \over \ln n} + {n \over (\ln n)^2} + {2! n \over (\ln n)^3} \cr
+ &\qquad {} + O\bigg({n \over (\ln n)^4}\bigg).\cr
+}
+$$

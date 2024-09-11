@@ -10,6 +10,7 @@
 \usepackage{titlesec}
 \usepackage{minted}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{graphicx}
 
 \usemintedstyle{default}
@@ -61,6 +62,15 @@ breakafter={,+-*;>=}, breakbefore={</}, tabsize=2, obeytabs, mathescape, frame=t
 
 \graphicspath{ {./images} }
 
+% \input{math/macros.tex}
+\def\Hrule{\vskip 3pt\hrule\vskip 3pt}
+\def\sfrac#1 #2 {\hbox{$#1 \over #2$}}
+\def\abs{\mathop{\rm abs}\nolimits}
+
+% end of math/macros.tex
+
+
+
 \begin{document}
 \begin{landscape}
 \begin{multicols*}{3}
@@ -72,41 +82,45 @@ breakafter={,+-*;>=}, breakbefore={</}, tabsize=2, obeytabs, mathescape, frame=t
  
 \raggedbottom
 \input contents.tex
+
+\section{Random}
+    \input{math/bhai}
 \end{multicols*}
 
-\begin{figure}[]
-    \centering
-    \includegraphics[width=\textheight, angle=-90]{form0}
-\end{figure}
-\begin{figure}[]
-    \centering
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{1.1}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{1.2}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{2.1}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{2.2}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{3.1}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{3.2}}
-\end{figure}
-\begin{figure}[]
-    \centering
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{4.1}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{4.2}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{5.1}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{5.2}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{6.1}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{6.2}}
-\end{figure}
-\begin{figure}[]
-    \fbox{\includegraphics[height=7cm, angle=0]{14}}	
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{7.1}}\\
-    \fbox{\includegraphics[height=6.75cm, angle=0]{12}}
-    \fbox{\includegraphics[height=\textwidth/2, angle=0]{7.2}}
-    %\fbox{\includegraphics[height=\textwidth/2, angle=-90]{13}}
-\end{figure}
-\begin{figure}[]
-    \fbox{\includegraphics[height=\textwidth, angle=0]{11}}
-    \fbox{\includegraphics[height=\textwidth, angle=0]{8}}
-    \fbox{\includegraphics[width=9.25cm, angle=0]{9}}
-\end{figure}
+
+% \begin{figure}[]
+%     \centering
+%     \includegraphics[width=\textheight, angle=-90]{form0}
+% \end{figure}
+% \begin{figure}[]
+%     \centering
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{1.1}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{1.2}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{2.1}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{2.2}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{3.1}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{3.2}}
+% \end{figure}
+% \begin{figure}[]
+%     \centering
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{4.1}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{4.2}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{5.1}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{5.2}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{6.1}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{6.2}}
+% \end{figure}
+% \begin{figure}[]
+%     \fbox{\includegraphics[height=7cm, angle=0]{14}}	
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{7.1}}\\
+%     \fbox{\includegraphics[height=6.75cm, angle=0]{12}}
+%     \fbox{\includegraphics[height=\textwidth/2, angle=0]{7.2}}
+%     %\fbox{\includegraphics[height=\textwidth/2, angle=-90]{13}}
+% \end{figure}
+% \begin{figure}[]
+%     \fbox{\includegraphics[height=\textwidth, angle=0]{11}}
+%     \fbox{\includegraphics[height=\textwidth, angle=0]{8}}
+%     \fbox{\includegraphics[width=9.25cm, angle=0]{9}}
+% \end{figure}
 \end{landscape}
 \end{document}

@@ -1,2 +1,0 @@
-#!/bin/bash
->&2 echo -e "Making [$2]\t: $1.cpp" && g++ -std=gnu++17 -Wshadow -Wall -Wextra -Wno-unused-result -O2 -g -fsanitize=undefined -fsanitize=address $2 "$1.cpp" -o "$1"
